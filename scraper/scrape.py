@@ -21,30 +21,50 @@ def parse_price(txt):
     except ValueError:
         return None
 
-# Busca "tarjetas": el ancestro más chico de cada <img> que tenga precio y nombre.
+# Cada tarjeta tiene un botón "Agregar por $X" o "Sin Stock". Se parte de ese botón y se
+# sube hasta la tarjeta completa (el ancestro más grande que tiene un solo botón).
 EXTRACT = r"""() => {
-  const priceRe = /\$\s*[\d.,]+/, skip = /^(\$|agregar|comprar|añadir|anadir|ver |agotado|sin stock|no disponible|\d+$)/i;
-  const out = [];
-  for (const img of document.querySelectorAll("img")) {
-    let el = img.parentElement;
-    while (el && el !== document.body && el.querySelectorAll("img").length === 1) {
-      const lines = (el.innerText || "").split("\n").map(s => s.trim()).filter(Boolean);
-      const prices = lines.filter(l => priceRe.test(l));
-      const names = lines.filter(l => !priceRe.test(l) && l.length >= 3 && !skip.test(l));
-      if (prices.length && names.length) {
-        const txt = el.innerText || "";
-        out.push({
-          name: names[0], prices,
-          img: img.currentSrc || img.src || img.getAttribute("data-src") || "",
-          out: /agotad|sin stock|no disponible/i.test(txt) || !!el.querySelector("button:disabled")
-        });
-        break;
-      }
-      el = el.parentElement;
+  const priceRe = /\$\s*[\d.,]+/;
+  const skip = /^(\$|agregar|comprar|añadir|anadir|ver |agotado|sin stock|no disponible|-?\d+\s*%?$)/i;
+  const bad = l => skip.test(l) || /^\W*nuevo\W*$/i.test(l);
+  const cnt = e => ((e.innerText || "").match(/\$\s*[\d.,]+/g) || []).length;
+  const ok = u => u && !u.startsWith("data:") && !/\.svg(\?|$)/i.test(u);
+  const photoOf = card => {
+    let best = "", area = 0;
+    for (const n of [card, ...card.querySelectorAll("*")]) {
+      const r = n.getBoundingClientRect(), a = r.width * r.height;
+      const m = (getComputedStyle(n).backgroundImage || "").match(/url\(["']?([^"')]+)["']?\)/);
+      const u = m ? m[1] : (n.tagName === "IMG" ? (n.currentSrc || n.src || n.getAttribute("data-src") || "") : "");
+      if (ok(u) && a >= area) { best = u; area = a; }
     }
+    return best;
+  };
+  const anchors = [], tw = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  for (let n; (n = tw.nextNode());)
+    if (/^\s*(agregar por|sin stock)/i.test(n.textContent) && n.parentElement) anchors.push(n.parentElement);
+  const count = e => anchors.filter(a => e.contains(a)).length;
+  const seen = new Set(), out = [];
+  for (const a of anchors) {
+    let el = a;
+    while (el.parentElement && el.parentElement !== document.body && count(el.parentElement) === 1) el = el.parentElement;
+    if (seen.has(el)) continue;
+    seen.add(el);
+    const n = cnt(el);
+    if (n < 1 || n > 4) continue;
+    const txt = el.innerText || "";
+    const lines = txt.split("\n").map(s => s.trim()).filter(Boolean);
+    const pi = lines.findIndex(l => priceRe.test(l));
+    if (pi < 1) continue;
+    let name = "";
+    for (let k = pi - 1; k >= 0; k--) if (lines[k].length >= 3 && !bad(lines[k])) { name = lines[k]; break; }
+    if (!name) continue;
+    out.push({ name, prices: lines.filter(l => priceRe.test(l)), img: photoOf(el), out: /agotad|sin stock|no disponible/i.test(txt) });
   }
   return out;
 }"""
+
+MORE = """() => { for (const b of document.querySelectorAll('button,a'))
+  if (/^(ver|cargar|mostrar) m[aá]s/i.test((b.innerText || '').trim())) b.click(); }"""
 
 def collect(page):
     found, still = {}, 0
@@ -53,13 +73,12 @@ def collect(page):
             vals = [v for v in map(parse_price, it["prices"]) if v]
             name = re.sub(r"\s+", " ", it["name"]).strip()
             if vals and name:
-                found[name] = {"name": name, "buy": min(vals), "img": it["img"], "stock": not it["out"]}
-        for btn in page.query_selector_all("button, a"):
-            try:
-                if re.search(r"(ver|cargar|mostrar) m[aá]s", btn.inner_text() or "", re.I):
-                    btn.click(timeout=1500)
-            except Exception:
-                pass
+                img = it["img"] or found.get(name, {}).get("img", "")
+                found[name] = {"name": name, "buy": min(vals), "img": img, "stock": not it["out"]}
+        try:
+            page.evaluate(MORE)
+        except Exception:
+            pass
         before = len(found)
         page.mouse.wheel(0, 2500)
         page.wait_for_timeout(900)
@@ -90,8 +109,6 @@ def main():
         page.screenshot(path=str(DEBUG / "pagina.png"))
         (DEBUG / "pagina.html").write_text(page.content(), encoding="utf-8")
         products = collect(page)
-        page.screenshot(path=str(DEBUG / "pagina.png"))
-        (DEBUG / "pagina.html").write_text(page.content(), encoding="utf-8")
         browser.close()
 
     prev_doc = load(DATA / "products.json")
