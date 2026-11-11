@@ -74,7 +74,10 @@ def collect(page):
             name = re.sub(r"\s+", " ", it["name"]).strip()
             if vals and name:
                 img = it["img"] or found.get(name, {}).get("img", "")
-                found[name] = {"name": name, "buy": min(vals), "img": img, "stock": not it["out"]}
+                item = {"name": name, "buy": min(vals), "img": img, "stock": not it["out"]}
+                if max(vals) > min(vals):
+                    item["old_buy"] = max(vals)
+                found[name] = item
         try:
             page.evaluate(MORE)
         except Exception:
