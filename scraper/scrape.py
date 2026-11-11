@@ -81,7 +81,14 @@ def main():
         browser = pw.chromium.launch()
         page = browser.new_page(viewport={"width": 1280, "height": 900}, locale="es-AR")
         page.goto(URL, wait_until="networkidle", timeout=90000)
-        page.wait_for_selector("img", timeout=30000)
+        page.wait_for_selector("img", state="attached", timeout=30000)
+        try:
+            page.wait_for_function("document.body.innerText.includes('$')", timeout=45000)
+        except Exception:
+            pass
+        page.wait_for_timeout(3000)
+        page.screenshot(path=str(DEBUG / "pagina.png"))
+        (DEBUG / "pagina.html").write_text(page.content(), encoding="utf-8")
         products = collect(page)
         page.screenshot(path=str(DEBUG / "pagina.png"))
         (DEBUG / "pagina.html").write_text(page.content(), encoding="utf-8")
