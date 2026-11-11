@@ -1,0 +1,115 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Control de perfumes</title>
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon-192.png"><meta name="theme-color" content="#2b1b3a">
+<style>
+:root{--bg:#f2eff5;--card:#fff;--ink:#231a2b;--mut:#76697f;--line:#ddd5e3;--head:#2b1b3a;--amb:#d9962b;--ok:#2f7d4f;--bad:#b3402f;--cus:#6b4ea0}
+@media(prefers-color-scheme:dark){:root{--bg:#171220;--card:#241c30;--ink:#f0eaf5;--mut:#a597b2;--line:#3a2f49;--head:#0f0a16;--cus:#9a7fd1}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--head);color:#f5eefa;padding:14px 16px;position:sticky;top:0;z-index:5;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+header h1{font:700 1.15rem Georgia,serif;margin:0;flex:1 1 180px}header small{display:block;font:400 .75rem system-ui;opacity:.7}
+button,input,select{font:inherit;border-radius:8px;border:1px solid var(--line);padding:8px 12px;background:var(--card);color:var(--ink)}
+button{cursor:pointer}button.main{background:var(--amb);border-color:var(--amb);color:#231a2b;font-weight:700}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--amb);outline-offset:1px}
+main{max-width:1100px;margin:0 auto;padding:14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center}.bar input[type=search]{flex:1 1 200px}
+.lbl{font-size:.85rem;color:var(--mut)}
+.chip{border-radius:99px;padding:6px 12px;font-size:.9rem}.chip[aria-pressed=true]{background:var(--head);color:#fff;border-color:var(--head)}
+.tg[aria-pressed=true]{background:var(--amb);border-color:var(--amb);color:#231a2b;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:var(--line)}
+.card>div{padding:10px 12px}.nm{font-weight:600;min-height:2.6em}.row{display:flex;justify-content:space-between;gap:6px;font-size:.9rem;color:var(--mut);margin-top:4px}
+.sell{font:700 1.3rem Georgia,serif;color:var(--ink)}.tag{font-size:.75rem;border-radius:6px;padding:2px 7px;color:#fff;margin-left:4px;white-space:nowrap}
+.new{background:var(--amb);color:#231a2b}.up{background:var(--bad)}.down{background:var(--ok)}.off{background:#7b7380}.sale{background:var(--bad)}.cus{background:var(--cus)}
+s{color:var(--bad)}.ed{width:100%;margin-top:8px;font-size:.85rem}
+.out{opacity:.6}dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:420px;width:92%}
+dialog label{display:block;margin:10px 0 4px;font-size:.9rem;color:var(--mut)}dialog input,dialog select{width:100%}
+#msg{padding:10px 16px;background:var(--amb);color:#231a2b;display:none}.empty{padding:40px 10px;text-align:center;color:var(--mut)}
+</style></head><body>
+<header><h1>Control de perfumes<small id="upd">Sin datos todavía</small></h1>
+<button class="main" id="go">Analizar ahora</button><button id="csv">Exportar Excel</button><button id="cfgb">Margen</button></header>
+<div id="msg" role="status"></div>
+<main>
+<div class="bar"><input id="q" type="search" placeholder="Buscar perfume" aria-label="Buscar perfume"><span id="chips" style="display:contents"></span></div>
+<div class="bar"><span class="lbl">Filtros</span><span id="tgs" style="display:contents"></span>
+<label class="lbl" for="sort">Ordenar</label><select id="sort"><option value="name">Nombre (A-Z)</option><option value="sellUp">Venta: menor a mayor</option><option value="sellDown">Venta: mayor a menor</option><option value="buyUp">Compra: menor a mayor</option><option value="buyDown">Compra: mayor a menor</option></select></div>
+<div class="grid" id="grid"></div></main>
+
+<dialog id="dlg"><form method="dialog"><h2 style="margin-top:0">Margen general</h2>
+<label>Cómo sumar la ganancia<select id="mode"><option value="fix">Monto fijo ($)</option><option value="pct">Porcentaje (%)</option></select></label>
+<label>Valor a sumar<input id="val" type="number" min="0" step="any"></label>
+<label>Redondear hacia arriba a múltiplos de<select id="rnd"><option value="1">Sin redondear</option><option value="100">$100</option><option value="500">$500</option><option value="1000">$1.000</option></select></label>
+<p class="lbl">Para un perfume con otro margen, tocá "Editar precio" en su tarjeta.</p>
+<label>Token de GitHub (solo para el botón Analizar ahora)<input id="tok" type="password" autocomplete="off"></label>
+<p style="display:flex;gap:8px"><button type="button" id="bk">Copiar respaldo</button><button type="button" id="rs">Restaurar respaldo</button></p>
+<p style="text-align:right"><button class="main" value="ok">Guardar</button></p></form></dialog>
+
+<dialog id="dlg2"><form method="dialog"><h2 style="margin-top:0;font-size:1.05rem" id="d2n"></h2><p class="lbl" id="d2h"></p>
+<label>Qué querés definir<select id="m2"><option value="fix">Ganancia en $</option><option value="pct">Ganancia en %</option><option value="price">Precio de venta final ($)</option></select></label>
+<label>Valor<input id="v2" type="number" min="0" step="any"></label>
+<p style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap"><button value="reset">Usar margen general</button><button value="cancel">Cancelar</button><button class="main" value="save">Guardar</button></p></form></dialog>
+
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// Lo que NO se considera perfume (se puede editar esta lista):
+const NO_PERFUME=/^(decant|kit\b|combo|mascar|perfumero|tubos|oleo\b|acondicionador|crema\b|pdrn)|victoria's secret|karseell|medicube/i;
+const ld=(k,d)=>{try{return{...d,...JSON.parse(localStorage.getItem(k)||"{}")}}catch(e){return d}};
+const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+let cfg=ld("cfg2",{mode:"fix",value:20000,round:100,token:""}),ov=ld("ov",{}),ui=ld("ui",{perf:false,hideOut:false,sale:false,sort:"name"});
+let data={products:[],removed:[]},flt="all",cur=null;
+const money=n=>"$"+Math.round(n).toLocaleString("es-AR");
+const sellOf=p=>{const o=ov[p.name];if(o&&o.mode==="price")return o.value;
+  const m=o?o.mode:cfg.mode,v=o?o.value:cfg.value,x=m==="pct"?p.buy*(1+v/100):p.buy+v,r=+cfg.round;return r>1?Math.ceil(x/r)*r:x};
+const msg=t=>{const m=$("#msg");m.textContent=t;m.style.display=t?"block":"none"};
+const sorters={name:(a,b)=>a.name.localeCompare(b.name,"es"),sellUp:(a,b)=>sellOf(a)-sellOf(b),sellDown:(a,b)=>sellOf(b)-sellOf(a),buyUp:(a,b)=>a.buy-b.buy,buyDown:(a,b)=>b.buy-a.buy};
+const base=()=>data.products.filter(p=>(!ui.perf||!NO_PERFUME.test(p.name))&&(!ui.hideOut||p.stock)&&(!ui.sale||p.old_buy));
+const visible=()=>{const q=$("#q").value.toLowerCase();return base().filter(p=>(flt==="all"||(flt==="out"?!p.stock:p.status===flt))&&p.name.toLowerCase().includes(q)).sort(sorters[ui.sort]||sorters.name)};
+async function load(){try{const r=await fetch("data/products.json?"+Date.now(),{cache:"no-store"});data=await r.json()}catch(e){msg("No se pudieron leer los datos. Revisá la conexión.")}render()}
+const filters=[["all","Todos"],["new","Nuevos"],["up","Subieron"],["down","Bajaron"],["out","Sin stock"],["gone","Ya no están"]];
+const toggles=[["perf","Solo perfumes"],["hideOut","Ocultar agotados"],["sale","En oferta"]];
+function render(){
+  const B=base(),cnt=k=>k==="all"?B.length:k==="out"?B.filter(p=>!p.stock).length:k==="gone"?(data.removed||[]).length:B.filter(p=>p.status===k).length;
+  $("#chips").innerHTML=filters.map(([k,l])=>`<button class="chip" data-k="${k}" aria-pressed="${flt===k}">${l} (${cnt(k)})</button>`).join("");
+  $("#tgs").innerHTML=toggles.map(([k,l])=>`<button class="chip tg" data-t="${k}" aria-pressed="${!!ui[k]}">${l}</button>`).join("");
+  $("#sort").value=ui.sort;
+  $("#upd").textContent=data.updated?"Última revisión: "+new Date(data.updated).toLocaleString("es-AR",{dateStyle:"medium",timeStyle:"short"}):"Sin datos todavía: tocá Analizar ahora";
+  let html;
+  if(flt==="gone"){const q=$("#q").value.toLowerCase();html=(data.removed||[]).filter(n=>n.toLowerCase().includes(q)).map(n=>`<div class="card"><div class="nm">${esc(n)}</div></div>`).join("")}
+  else html=visible().map(p=>{const s=sellOf(p),i=data.products.indexOf(p),o=ov[p.name];return`
+   <article class="card ${p.stock?"":"out"}">${p.img?`<img src="${esc(p.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:""}<div>
+   <div class="nm" style="padding:0">${esc(p.name)}${p.status==="new"?'<span class="tag new">Nuevo</span>':""}${p.old_buy?'<span class="tag sale">Oferta</span>':""}${p.stock?"":'<span class="tag off">Sin stock</span>'}</div>
+   <div class="row"><span>Compra</span><span>${p.old_buy?`<s>${money(p.old_buy)}</s> `:""}${money(p.buy)}${p.prev_buy?` <span class="tag ${p.status}">${p.status==="up"?"▲":"▼"} antes ${money(p.prev_buy)}</span>`:""}</span></div>
+   <div class="row"><span>Venta${o?' <span class="tag cus">Personalizado</span>':""}</span><span class="sell">${money(s)}</span></div>
+   <div class="row"><span>Ganancia</span><span>${money(s-p.buy)}</span></div>
+   <button class="ed" data-i="${i}">Editar precio</button></div></article>`}).join("");
+  $("#grid").innerHTML=html||'<p class="empty">No hay perfumes con estos filtros.</p>';
+}
+$("#chips").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;render()}};
+$("#tgs").onclick=e=>{const k=e.target.dataset.t;if(k){ui[k]=!ui[k];sv("ui",ui);render()}};
+$("#sort").onchange=e=>{ui.sort=e.target.value;sv("ui",ui);render()};$("#q").oninput=render;
+$("#grid").onclick=e=>{const i=e.target.dataset.i;if(i==null)return;cur=data.products[i];const o=ov[cur.name]||{mode:cfg.mode,value:cfg.value};
+  $("#d2n").textContent=cur.name;$("#d2h").textContent="Compra "+money(cur.buy)+" · Venta actual "+money(sellOf(cur));$("#m2").value=o.mode;$("#v2").value=o.value;
+  $("#dlg2").returnValue="";$("#dlg2").showModal()};
+$("#dlg2").onclose=()=>{const r=$("#dlg2").returnValue;if(!cur)return;
+  if(r==="save"){ov[cur.name]={mode:$("#m2").value,value:+$("#v2").value||0};sv("ov",ov)}else if(r==="reset"){delete ov[cur.name];sv("ov",ov)}render()};
+$("#cfgb").onclick=()=>{$("#mode").value=cfg.mode;$("#val").value=cfg.value;$("#rnd").value=cfg.round;$("#tok").value=cfg.token;$("#dlg").returnValue="";$("#dlg").showModal()};
+$("#dlg").onclose=()=>{if($("#dlg").returnValue!=="ok")return;cfg={mode:$("#mode").value,value:+$("#val").value||0,round:$("#rnd").value,token:$("#tok").value.trim()};sv("cfg2",cfg);render()};
+$("#bk").onclick=async()=>{try{await navigator.clipboard.writeText(JSON.stringify({cfg:{...cfg,token:""},ov}));msg("Respaldo copiado. Pegalo en otro dispositivo con Restaurar respaldo.")}catch(e){msg("No se pudo copiar el respaldo.")}};
+$("#rs").onclick=()=>{const t=prompt("Pegá el respaldo");if(!t)return;try{const b=JSON.parse(t);cfg={...cfg,...b.cfg,token:cfg.token};ov=b.ov||{};sv("cfg2",cfg);sv("ov",ov);$("#dlg").close();render();msg("Respaldo restaurado.")}catch(e){msg("El respaldo no es válido.")}};
+$("#csv").onclick=()=>{const rows=[["Nombre","Compra","Venta","Ganancia","Stock","Oferta"],...visible().map(p=>[p.name,p.buy,sellOf(p),sellOf(p)-p.buy,p.stock?"Si":"No",p.old_buy?"Si":"No"])];
+  const b=new Blob(["\ufeff"+rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(";")).join("\n")],{type:"text/csv"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="perfumes.csv";a.click()};
+$("#go").onclick=async()=>{
+  const m=location.hostname.match(/^(.+)\.github\.io$/),repo=location.pathname.split("/")[1];
+  if(!cfg.token||!m||!repo){await load();msg("Datos recargados. Para analizar la tienda desde acá, cargá el token en Margen.");return}
+  msg("Pidiendo el análisis…");const old=data.updated;
+  const r=await fetch(`https://api.github.com/repos/${m[1]}/${repo}/actions/workflows/scrape.yml/dispatches`,{method:"POST",
+    headers:{Authorization:"Bearer "+cfg.token,Accept:"application/vnd.github+json"},body:JSON.stringify({ref:"main"})});
+  if(!r.ok){msg("GitHub rechazó el pedido ("+r.status+"). Revisá el token.");return}
+  for(let i=0;i<24;i++){msg("Analizando la tienda… puede tardar unos minutos");await new Promise(f=>setTimeout(f,15000));await load();if(data.updated!==old){msg("Listo: datos actualizados.");return}}
+  msg("Todavía no hay datos nuevos. Probá recargar en un rato.");
+};
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+load();
+</script></body></html>
