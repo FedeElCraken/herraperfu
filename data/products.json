@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-11T05:17:46+00:00",
- "first_run": true,
+ "updated": "2026-11-11T05:42:32+00:00",
+ "first_run": false,
  "products": [
   {
    "name": "212 Vip Rose EDP (80ml) - Carolina Herrera",
@@ -42,6 +42,7 @@
    "buy": 49900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FAPl8VrldHv7hKIZiubVR.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 51800.0,
    "status": "same"
   },
   {
@@ -49,6 +50,7 @@
    "buy": 47900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBqucpAvmDj0GxbSmTeV8.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 51600.0,
    "status": "same"
   },
   {
@@ -98,6 +100,7 @@
    "buy": 64100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmPrSj9B3sDMg5pI6Gn3V.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 72100.0,
    "status": "same"
   },
   {
@@ -147,6 +150,7 @@
    "buy": 37100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuKZVcKCA0DvfYEfEvILd.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 40500.0,
    "status": "same"
   },
   {
@@ -154,6 +158,7 @@
    "buy": 39400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fq6WvKO3xbVCCIgUjdbde.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 44400.0,
    "status": "same"
   },
   {
@@ -161,6 +166,7 @@
    "buy": 38500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FfeOcSGte5JF0wIGezAPb.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 42500.0,
    "status": "same"
   },
   {
@@ -182,6 +188,7 @@
    "buy": 81000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJYsExL1iaQRsS5bEZ9BC.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 84000.0,
    "status": "same"
   },
   {
@@ -189,6 +196,7 @@
    "buy": 85500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIMV9naXI8dsSIEqp0TtG.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 95500.0,
    "status": "same"
   },
   {
@@ -217,6 +225,7 @@
    "buy": 79900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrV6xig7QXui5D1I4F4S9.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 86000.0,
    "status": "same"
   },
   {
@@ -238,6 +247,7 @@
    "buy": 29900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrQfIg7AzRSOC4U7DksEx.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 38600.0,
    "status": "same"
   },
   {
@@ -245,6 +255,7 @@
    "buy": 31800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5DvoZpX4XG8Zy6yU29LI.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 34800.0,
    "status": "same"
   },
   {
@@ -420,6 +431,7 @@
    "buy": 49900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FPRTSrNJWWvWjYMbc9D3F.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 53900.0,
    "status": "same"
   },
   {
@@ -434,6 +446,7 @@
    "buy": 89000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FARiYS1peg2VXk7aLWpZj.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 91000.0,
    "status": "same"
   },
   {
@@ -644,6 +657,7 @@
    "buy": 45300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FR3p6N5yai74ZefACHVqS.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 48300.0,
    "status": "same"
   },
   {
@@ -707,6 +721,7 @@
    "buy": 31200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FP3TgXOGPgxNtMXWnGNf2.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 36200.0,
    "status": "same"
   },
   {
@@ -798,6 +813,7 @@
    "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0rI8lBjv6K0YnCbmCrvO.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 46900.0,
    "status": "same"
   },
   {
@@ -812,6 +828,7 @@
    "buy": 39800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2Gmlq7kN7FTQrfT4D2md.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 44800.0,
    "status": "same"
   },
   {
@@ -861,6 +878,7 @@
    "buy": 38100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FR80JEJ7b26M6WM6csMAB.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 42100.0,
    "status": "same"
   },
   {
@@ -903,6 +921,7 @@
    "buy": 54900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FQOmraUeZwARZ5eqWubr9.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 59900.0,
    "status": "same"
   },
   {
@@ -924,6 +943,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FfOcjxYJkcoght7U6Mmd5.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -931,6 +951,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FMhL7fCo9eXgtNYkV1kUt.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -938,6 +959,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FrJwIZRMCzwnPSK40jiXH.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -945,6 +967,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FE2R7NwAIwRHV8Rv343uA.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -952,6 +975,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FtS9H8BhKIReW0niIoBWA.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -959,6 +983,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FXTgCU0llufByfPXPv7c5.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 59800.0,
    "status": "same"
   },
   {
@@ -980,6 +1005,7 @@
    "buy": 38200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fq7EotEk5DppiX3qSL3BD.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 42800.0,
    "status": "same"
   },
   {
@@ -1022,6 +1048,7 @@
    "buy": 83500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVf3YijpJ5SRWqvXrDTzy.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 87500.0,
    "status": "same"
   },
   {
@@ -1050,6 +1077,7 @@
    "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fe6VC2DQqyMcrjOICxLCu.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 64600.0,
    "status": "same"
   },
   {
@@ -1078,6 +1106,7 @@
    "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMLw7fBpzOU0T7M730itV.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 74700.0,
    "status": "same"
   },
   {
@@ -1099,6 +1128,7 @@
    "buy": 59800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0WGKpI2qukbzWyEU42s1.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 66500.0,
    "status": "same"
   },
   {
@@ -1106,6 +1136,7 @@
    "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6DoftnFUWlJeEDvymFry.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 62900.0,
    "status": "same"
   },
   {
@@ -1204,6 +1235,7 @@
    "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F1CR1KPmXoDhSoFILHXcW.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 59900.0,
    "status": "same"
   },
   {
@@ -1211,6 +1243,7 @@
    "buy": 42900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FF3eJyXFd0xyDRG509j5B.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 47600.0,
    "status": "same"
   },
   {
@@ -1225,6 +1258,7 @@
    "buy": 43200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FxafDnPc7eeE9bOJjjbv4.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 49800.0,
    "status": "same"
   },
   {
@@ -1330,6 +1364,7 @@
    "buy": 76000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fpo8XP5T8Hv6HsCbH92ve.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 95000.0,
    "status": "same"
   },
   {
@@ -1414,6 +1449,7 @@
    "buy": 58900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FzHKozqYvKXBQCji9Xrqr.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 62900.0,
    "status": "same"
   },
   {
@@ -1631,6 +1667,7 @@
    "buy": 54000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FYuAKEqJPgl4lIoz0dN24.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 57000.0,
    "status": "same"
   },
   {
@@ -1673,6 +1710,7 @@
    "buy": 53900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F1NlN0cVyklDcmoJJmu9F.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59900.0,
    "status": "same"
   },
   {
@@ -1687,6 +1725,7 @@
    "buy": 41500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuML7U7YyerYVm4wBbeiV.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 49000.0,
    "status": "same"
   },
   {
@@ -1708,6 +1747,7 @@
    "buy": 54800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4j3QrPmaq9DQ1F4hX7qD.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 57700.0,
    "status": "same"
   },
   {
@@ -1715,6 +1755,7 @@
    "buy": 39800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FzJDX7appJUwEs0REtOz6.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 42800.0,
    "status": "same"
   },
   {
@@ -1743,6 +1784,7 @@
    "buy": 63500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUXJ5T4wwww8bP52IcaJi.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 66100.0,
    "status": "same"
   },
   {
@@ -1750,6 +1792,7 @@
    "buy": 73000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fq8W6Co4h0GHV5S4bcQmS.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 77000.0,
    "status": "same"
   },
   {
@@ -1862,6 +1905,7 @@
    "buy": 29500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fagxu4UajUC94FS9buyTq.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 31500.0,
    "status": "same"
   },
   {
@@ -1869,6 +1913,7 @@
    "buy": 39800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Ftaom8wx6LMJozwLPI4GT.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 44100.0,
    "status": "same"
   },
   {
@@ -1876,6 +1921,7 @@
    "buy": 29100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUh3pxyD9AvU7F4q1kDKG.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 33100.0,
    "status": "same"
   },
   {
@@ -1953,6 +1999,7 @@
    "buy": 34400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6rd0P57Vrm33GZ3ymwGb.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 38500.0,
    "status": "same"
   },
   {
@@ -1960,6 +2007,7 @@
    "buy": 34400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Flxhn3rP4GZ1RUq4Ssfn1.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 38500.0,
    "status": "same"
   },
   {
@@ -2009,6 +2057,7 @@
    "buy": 83500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbFnIuXtjkfOMFQF78Vfl.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 93500.0,
    "status": "same"
   },
   {
@@ -2023,6 +2072,7 @@
    "buy": 44800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F3llmJcee5QN2TwR1sQb2.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 56600.0,
    "status": "same"
   },
   {
@@ -2072,6 +2122,7 @@
    "buy": 51000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMhOCA5bNFMdTVrqmu7WJ.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 59300.0,
    "status": "same"
   },
   {
@@ -2198,6 +2249,7 @@
    "buy": 49400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBhkZkydxhyBmwTF9yGAP.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 53400.0,
    "status": "same"
   },
   {
@@ -2247,6 +2299,7 @@
    "buy": 42500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FS5c0nleJ1iDwSEvYjaEy.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 48100.0,
    "status": "same"
   },
   {
@@ -2289,6 +2342,7 @@
    "buy": 43200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmuIz3xu3fle61Jc4ooE8.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 45900.0,
    "status": "same"
   },
   {
@@ -2303,6 +2357,7 @@
    "buy": 34700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FByk6DdLOplMzMt7M9FGA.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 36700.0,
    "status": "same"
   },
   {
@@ -2310,6 +2365,7 @@
    "buy": 95000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F8fwQNlOL4CYyflFmPGHK.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 99900.0,
    "status": "same"
   },
   {
@@ -2408,6 +2464,7 @@
    "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuWnqOvN8egdAgqmk5vwz.jpg%3Falt%3Dmedia",
    "stock": false,
+   "old_buy": 63700.0,
    "status": "same"
   },
   {
@@ -2415,6 +2472,7 @@
    "buy": 79300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgSNE95fq25CBGUy5HbLJ.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 89300.0,
    "status": "same"
   },
   {
@@ -2429,6 +2487,7 @@
    "buy": 49900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUPkf8RrxBrHP9FPYLVac.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 52000.0,
    "status": "same"
   },
   {
@@ -2443,6 +2502,7 @@
    "buy": 47400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FhfAI3mJ5U4NCGRn84aLj.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 49900.0,
    "status": "same"
   },
   {
@@ -2499,6 +2559,7 @@
    "buy": 42700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlRRAERxY4HiArnYJX7ng.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 44400.0,
    "status": "same"
   },
   {
@@ -2527,6 +2588,7 @@
    "buy": 32000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FwFrd9Ny8m1PdtKSs2v3v.jpg%3Falt%3Dmedia",
    "stock": true,
+   "old_buy": 36700.0,
    "status": "same"
   },
   {
