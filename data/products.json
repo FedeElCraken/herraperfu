@@ -1,107 +1,122 @@
 {
- "updated": "2026-11-11T17:23:02+00:00",
+ "updated": "2026-11-16T21:40:25+00:00",
  "first_run": false,
  "products": [
   {
    "name": "212 Vip Rose EDP (80ml) - Carolina Herrera",
-   "buy": 131500.0,
+   "buy": 135000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJurjjSkFYNOqmT0HRpCZ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 131500.0
   },
   {
    "name": "24 Carat Pure Gold EDP (100ml) - Lattafa",
-   "buy": 32000.0,
+   "buy": 32900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F9U4Nxhb86LXxQrVU97VB.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 32000.0
   },
   {
    "name": "24 Carat White EDP (100ml) - Lattafa",
-   "buy": 32000.0,
+   "buy": 32900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FqM1AGgDiNyRSBV9dBHAa.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 32000.0
   },
   {
    "name": "9AM Dive EDP (100ml) - Armaf",
-   "buy": 55500.0,
+   "buy": 56900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fup5y3ro9wxgbiPCTf2kL.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55500.0
   },
   {
    "name": "9AM EDP (100ml) - Armaf",
-   "buy": 56200.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6AE1c9dJGzLjimv9EIXc.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "old_buy": 56200.0,
+   "status": "down",
+   "prev_buy": 56200.0
   },
   {
    "name": "9AM Pour Femme EDP (100ml) - Armaf",
-   "buy": 49900.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FAPl8VrldHv7hKIZiubVR.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 51800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "9PM EDP (100ml) - Armaf",
-   "buy": 47900.0,
+   "buy": 49900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBqucpAvmDj0GxbSmTeV8.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 51600.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47900.0
   },
   {
    "name": "9PM Elixir Parfum (100ml) - Armaf",
-   "buy": 65300.0,
+   "buy": 66800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F90p7XJf9EPzOSsEt7EAz.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 65300.0
   },
   {
    "name": "9PM Night Out Extrait DP (100ml) - Armaf",
-   "buy": 86000.0,
+   "buy": 87800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FYo2802a5GFx6tXoARyTI.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 86000.0
   },
   {
    "name": "9PM Pour Femme EDP (100ml) - Armaf",
-   "buy": 53500.0,
+   "buy": 54500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fo3rKFvgS0dRvE4DPsaz0.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 53500.0
   },
   {
    "name": "9PM Rebel EDP (100ml) - Armaf",
-   "buy": 74900.0,
+   "buy": 76000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FFqKyf0x9uMlpoALxNwt9.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 74900.0
   },
   {
    "name": "Acondicionador & Shampoo 500ml - Karseell",
-   "buy": 32900.0,
+   "buy": 33900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUmB1A9NXaPsB3Jp6Ej4O.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 32900.0
   },
   {
    "name": "Adeeb EDP (100ml) - Lattafa",
-   "buy": 36500.0,
+   "buy": 37500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDdTHU6Fv3uJ5IuQ3YhLz.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36500.0
   },
   {
    "name": "Aether Extrait DP (100ml) - French Avenue",
-   "buy": 64100.0,
+   "buy": 65200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmPrSj9B3sDMg5pI6Gn3V.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 72100.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 64100.0
   },
   {
    "name": "Afeef EDP (100ml) - Lattafa",
@@ -112,92 +127,103 @@
   },
   {
    "name": "Affection EDP (100ml) - Lattafa",
-   "buy": 39400.0,
+   "buy": 40400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FxsCnlHVlkkU6RSoigGUh.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39400.0
   },
   {
    "name": "Ajayeb Dubai EDP (100ml) - Lattafa",
-   "buy": 33400.0,
+   "buy": 34400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FfaTSdG5QqrxdQZqbw9zi.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33400.0
   },
   {
    "name": "Ajwad EDP (60ml) - Lattafa",
-   "buy": 33500.0,
+   "buy": 34500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWgoRy7U1FhYP2x1reV9W.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33500.0
   },
   {
    "name": "Ajwad Pink To Pink EDP (100ml) - Lattafa",
-   "buy": 33300.0,
+   "buy": 34300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FXzNC5HE9knYE6qwpBUPO.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33300.0
   },
   {
    "name": "Al Nashama Caprice EDP (100ml) - Lattafa",
-   "buy": 46800.0,
+   "buy": 47800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUn5O3XysOoffHsBum16c.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46800.0
   },
   {
    "name": "Al Noble Ameer EDP (100ml) - Lattafa",
-   "buy": 37100.0,
+   "buy": 38000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuKZVcKCA0DvfYEfEvILd.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 40500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37100.0
   },
   {
    "name": "Al Noble Safeer EDP (100ml) - Lattafa",
-   "buy": 39400.0,
+   "buy": 40000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fq6WvKO3xbVCCIgUjdbde.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 44400.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39400.0
   },
   {
    "name": "Al Noble Wazeer EDP (100ml) - Lattafa",
-   "buy": 38500.0,
+   "buy": 38000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FfeOcSGte5JF0wIGezAPb.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 42500.0,
-   "status": "same"
+   "status": "down",
+   "prev_buy": 38500.0
   },
   {
    "name": "Al Qiam Gold EDP (100ml) - Lattafa",
-   "buy": 44800.0,
+   "buy": 45800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlygTbxwnGmtoLuEJwv3W.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44800.0
   },
   {
    "name": "Al Qiam Silver EDP (100ml) - Lattafa",
-   "buy": 47900.0,
+   "buy": 48900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FP16n1MdAVSyyZsUvQxQR.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47900.0
   },
   {
    "name": "Amber Oud Aqua Extrait DP (100ml) - Al Haramain",
    "buy": 81000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJYsExL1iaQRsS5bEZ9BC.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 84000.0,
    "status": "same"
   },
   {
    "name": "Amber Oud Carbon Edition EDP (100ml) - Al Haramain",
-   "buy": 85500.0,
+   "buy": 87000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIMV9naXI8dsSIEqp0TtG.jpg%3Falt%3Dmedia",
-   "stock": false,
+   "stock": true,
    "old_buy": 95500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 85500.0
   },
   {
    "name": "Amber Oud Dubai Night Extrait DP (100ml) - Al Haramain",
@@ -208,10 +234,11 @@
   },
   {
    "name": "Amber Oud Gold Edition EDP (120ml) - Al Haramain",
-   "buy": 89000.0,
+   "buy": 89900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FT0jVSdKkNmTcpiRNgyEp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 89000.0
   },
   {
    "name": "Amber Oud Ruby Edition EDP (120ml) - Al Haramain",
@@ -237,82 +264,93 @@
   },
   {
    "name": "Amber Romance Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FEk6kdKor7dIAnSYqgBVM.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Ameer Al Oudh EDP (100ml) - Lattafa",
-   "buy": 29900.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrQfIg7AzRSOC4U7DksEx.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 38600.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 29900.0
   },
   {
    "name": "Ameerat Al Arab EDP (100ml) - Lattafa",
-   "buy": 31800.0,
+   "buy": 32800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5DvoZpX4XG8Zy6yU29LI.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 34800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 31800.0
   },
   {
    "name": "Ameerat Al Arab Prive Rose EDP (100ml) - Lattafa",
-   "buy": 47300.0,
+   "buy": 48300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FPWK4TxUSTAPab587I8Ib.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47300.0
   },
   {
    "name": "Amethyst EDP (100ml) - Lattafa",
-   "buy": 38000.0,
+   "buy": 38800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIUDOPTru9tsmiWHfTvu1.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38000.0
   },
   {
    "name": "Ana Abiyedh EDP (60ml) - Lattafa",
-   "buy": 33500.0,
+   "buy": 34200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FFcFO9pzlhHad7RmA1rz8.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33500.0
   },
   {
    "name": "Ana Abiyedh Rouge EDP (60ml) - Lattafa",
-   "buy": 33500.0,
+   "buy": 34200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FT1U65HXjMBhFM69OunI2.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33500.0
   },
   {
    "name": "Angham EDP (100ml) - Lattafa",
-   "buy": 46900.0,
+   "buy": 47900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FCKEiPA4AbL7myZA4rAj4.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46900.0
   },
   {
    "name": "Angham Second Song EDP (100ml) - Lattafa",
-   "buy": 52900.0,
+   "buy": 53900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fs5H4BAxj9aLepEh0X3oQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 52900.0
   },
   {
    "name": "Ansaam Gold EDP (100ml) - Lattafa",
-   "buy": 44500.0,
+   "buy": 45500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fi6jxzWGkAuc1mLNVxAjK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44500.0
   },
   {
    "name": "Ansaam Silver EDP (100ml) - Lattafa",
-   "buy": 50200.0,
+   "buy": 51200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FhduVqKnNqn2XVqvSxOhV.jpg%3Falt%3Dmedia",
-   "stock": true,
-   "status": "same"
+   "stock": false,
+   "status": "up",
+   "prev_buy": 50200.0
   },
   {
    "name": "Aqua Kiss (250ml) - Victoria's Secret",
@@ -323,10 +361,11 @@
   },
   {
    "name": "Aqua Kiss Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgoRHsAvQTkwbNNalfyuY.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Art Of Universe EDP (100ml) - Lattafa",
@@ -337,31 +376,35 @@
   },
   {
    "name": "Asad Bourbon EDP (100ml) - Lattafa",
-   "buy": 69900.0,
+   "buy": 71300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJFfeeW1r9aNnq9oCP4vU.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 69900.0
   },
   {
    "name": "Asad EDP (100ml) - Lattafa",
-   "buy": 49900.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fz4JlmD7Trcwfz1fCZ2Pc.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Asad Elixir EDP (100ml) - Lattafa",
-   "buy": 61700.0,
+   "buy": 62900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F81iMKj8KPsOWJBMcnP7y.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 61700.0
   },
   {
    "name": "Asad Zanzibar EDP (100ml) - Lattafa",
-   "buy": 43800.0,
+   "buy": 44700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F7mTF3N8qyyxgg4hY20oN.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43800.0
   },
   {
    "name": "Atlantis Extrait DP (100ml) - French Avenue",
@@ -372,17 +415,19 @@
   },
   {
    "name": "Atlas Canyon EDP (100ml) - Lattafa",
-   "buy": 76000.0,
+   "buy": 77500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FjMa1TzvpRHWBqPmA6JFj.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 76000.0
   },
   {
    "name": "Atlas EDP (55ml) - Lattafa",
-   "buy": 52100.0,
+   "buy": 53100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FS9EP6w2kTa1Hsk29NApv.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 52100.0
   },
   {
    "name": "Atlas Glacial Valley EDP (100ml) - Lattafa",
@@ -400,16 +445,17 @@
   },
   {
    "name": "Bad Femme EDP (100ml) - Maison Alhambra",
-   "buy": 36300.0,
+   "buy": 37300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlcSdtfUR1O02lUAoc3MQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36300.0
   },
   {
    "name": "Bad Homme EDP (100ml) - Maison Alhambra",
    "buy": 39300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmbAiyUn3EdpDqjc1TWfh.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -421,18 +467,20 @@
   },
   {
    "name": "Bare Vainilla Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJ0bzhnnKi4TPEM7dw1mO.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Beach Party EDP (100ml) - Armaf",
-   "buy": 49900.0,
+   "buy": 50800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FPRTSrNJWWvWjYMbc9D3F.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 53900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Bharara Double Bleu EDP (100ml) - Bharara",
@@ -443,18 +491,20 @@
   },
   {
    "name": "Bharara King EDP (100ml) - Bharara",
-   "buy": 89000.0,
+   "buy": 90900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FARiYS1peg2VXk7aLWpZj.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 91000.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 89000.0
   },
   {
    "name": "Bharara King Parfum (100ml) - Bharara",
-   "buy": 111800.0,
+   "buy": 114200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fg9Ilkg9NXJ7MApxXhkZD.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 111800.0
   },
   {
    "name": "Bharara King Soleil EDP (100ml) - Bharara",
@@ -465,17 +515,19 @@
   },
   {
    "name": "Bharara Niche Femme EDP (100ml) - Bharara",
-   "buy": 84500.0,
+   "buy": 85500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fi13Kw7hCrDcEhi6fJ0Ha.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 84500.0
   },
   {
    "name": "Bharara Niche Parfum (100ml) - Bharara",
-   "buy": 75200.0,
+   "buy": 76200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtVUMnxUtCODUKRgTH9Re.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 75200.0
   },
   {
    "name": "Bharara Rey De Reyes EDP (100ml) - Bharara",
@@ -486,24 +538,27 @@
   },
   {
    "name": "Bharara Rose EDP (100ml) - Bharara",
-   "buy": 77300.0,
+   "buy": 78300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FvRglVPRTXdGDzDQ2Coz7.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 77300.0
   },
   {
    "name": "Blue Sapphire EDP (100ml) - Lattafa",
-   "buy": 44100.0,
+   "buy": 45100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDvFT4odVm1D42oUybwuQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44100.0
   },
   {
    "name": "Born In Roma Uomo Intense EDP (100ml) - Valentino",
-   "buy": 229000.0,
+   "buy": 233900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FSWbPGq5F63bTfwAXv1zy.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 229000.0
   },
   {
    "name": "Born in Roma Uomo Yellow Dream (100ml) EDT - Valentino",
@@ -521,38 +576,43 @@
   },
   {
    "name": "Cassius EDP (100ml) - Maison Alhambra",
-   "buy": 36500.0,
+   "buy": 37500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0lIHLCZbj36y0e2Wj0WG.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36500.0
   },
   {
    "name": "Club De Nuit Bling EDP (100ml) - Armaf",
-   "buy": 81800.0,
+   "buy": 82800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FvDzYX8KJ93DEFZG0thZe.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 81800.0
   },
   {
    "name": "Club De Nuit Elite EDP (100ml) - Armaf",
-   "buy": 124400.0,
+   "buy": 126900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F1A3qON0aOFsNgxpvSI3S.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 124400.0
   },
   {
    "name": "Club De Nuit Iconic EDP (105ml) - Armaf",
-   "buy": 65300.0,
+   "buy": 66300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJNuJp8ZBXANWBruzbk5Y.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 65300.0
   },
   {
    "name": "Club De Nuit Imperiale (105ml) - Armaf",
-   "buy": 62200.0,
+   "buy": 64200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FK7WopCFxh2daN1eshEzu.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 62200.0
   },
   {
    "name": "Club De Nuit Intense Man EDP (105ml) - Armaf",
@@ -563,102 +623,116 @@
   },
   {
    "name": "Club De Nuit Intense Overdose Extrait DP (100ml) - Armaf",
-   "buy": 101000.0,
+   "buy": 103100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FdOeQYIumd86KmhhzQHcW.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 101000.0
   },
   {
    "name": "Club De Nuit Intense Woman EDP (105ml) - Armaf",
-   "buy": 48500.0,
+   "buy": 49500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FKywhzxkt4x8zJFXVpBWv.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 48500.0
   },
   {
    "name": "Club De Nuit Lionheart Man EDP (105ml) - Armaf",
-   "buy": 64600.0,
+   "buy": 65600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlejVpYyjdYRI6bEDoHw6.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 64600.0
   },
   {
    "name": "Club De Nuit Lionheart Woman EDP (105ml) - Armaf",
-   "buy": 63400.0,
+   "buy": 64500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FLMNsKXujXI385e4wSAo3.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 63400.0
   },
   {
    "name": "Club De Nuit Maleka (105ml) - Armaf",
-   "buy": 61800.0,
+   "buy": 62800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUJhjFeD4dg6RaBGTJzYt.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 61800.0
   },
   {
    "name": "Club De Nuit Milestone EDP (105ml) - Armaf",
-   "buy": 56800.0,
+   "buy": 57800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FjfHOSLBsABzQh9hbd27R.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 56800.0
   },
   {
    "name": "Club De Nuit Oud Parfum (105ml) - Armaf",
-   "buy": 81100.0,
+   "buy": 83100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrBjWnWFKtioGNoV3o6ey.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 81100.0
   },
   {
    "name": "Club De Nuit Precieux (55ml) - Armaf",
-   "buy": 92100.0,
+   "buy": 94000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVQ8dUvynBcuix8zRRdpV.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 92100.0
   },
   {
    "name": "Club De Nuit Precieux IV Extrait DP (55ml) - Armaf",
-   "buy": 93500.0,
+   "buy": 96500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUbHK2uQ0m3yYZdJa3AXT.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 93500.0
   },
   {
    "name": "Club De Nuit Sillage (105ml) - Armaf",
-   "buy": 58700.0,
+   "buy": 59800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWOR0cof34cqHK3AzD5Tz.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 58700.0
   },
   {
    "name": "Club De Nuit Untold EDP (105ml) - Armaf",
-   "buy": 62800.0,
+   "buy": 63800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6oAHOL0XwiRmggC08u7Z.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 62800.0
   },
   {
    "name": "Club De Nuit Urban Man Elixir EDP (105ml) - Armaf",
-   "buy": 61000.0,
+   "buy": 62000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgVssE8qCduseqikTb2Nz.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 61000.0
   },
   {
    "name": "Club De Nuit Woman EDP (105ml) - Armaf",
-   "buy": 59300.0,
+   "buy": 60300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FNhOtqJfUJy88aj5m7YCb.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59300.0
   },
   {
    "name": "Cocoa Morado EDP (100ml) - French Avenue",
-   "buy": 45300.0,
+   "buy": 46300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FR3p6N5yai74ZefACHVqS.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 48300.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 45300.0
   },
   {
    "name": "Coconut Passion (250ml) - Victoria's Secret",
@@ -669,24 +743,27 @@
   },
   {
    "name": "Coconut Passion Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fbt55DFBZjFPTV82fE0D1.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Combo Oleo + Mascarilla - Karseell",
-   "buy": 29800.0,
+   "buy": 30800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FisT5r29lIPKhtGd2aKzx.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 29800.0
   },
   {
    "name": "Confidential Gold EDP (100ml) - Lattafa",
-   "buy": 36900.0,
+   "buy": 67900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtDIejYAHGY039zC9eQVk.jpg%3Falt%3Dmedia",
    "stock": false,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36900.0
   },
   {
    "name": "Crema Aqua Kiss (236ml) - Victoria's Secret",
@@ -697,32 +774,36 @@
   },
   {
    "name": "Crema Bare Vainilla (236ml) - Victoria's Secret",
-   "buy": 31000.0,
+   "buy": 29900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJejKslDGqDGR6iaQDDuT.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "down",
+   "prev_buy": 31000.0
   },
   {
    "name": "Dark Aoud EDP (100ml) - Maison Alhambra",
-   "buy": 38200.0,
+   "buy": 39200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F19K5b3ydGsgmyEZgiQQy.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38200.0
   },
   {
    "name": "Dark Door Intense EDP (100ml) - Maison Alhambra",
-   "buy": 45000.0,
+   "buy": 46000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0xn6oyXpUsmNhma2nhs1.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 45000.0
   },
   {
    "name": "Dark Door Sport EDP (100ml) - Maison Alhambra",
-   "buy": 31200.0,
+   "buy": 32200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FP3TgXOGPgxNtMXWnGNf2.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 36200.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 31200.0
   },
   {
    "name": "Decant 10ml (Perfume a eleccion)",
@@ -768,24 +849,27 @@
   },
   {
    "name": "Delilah Blanc EDP (100ml) - Maison Alhambra",
-   "buy": 47400.0,
+   "buy": 48400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrFHUPNlThsYnmXRSxtkp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47400.0
   },
   {
    "name": "Delilah Pour Femme EDP (100ml) - Maison Alhambra",
-   "buy": 49900.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F1qUUBmTTdnacq9BoxYRH.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Divin Aoud EDP (100ml) - French Avenue",
-   "buy": 65900.0,
+   "buy": 66900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FERoTq1Ua9Ph4z8mfnDUq.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 65900.0
   },
   {
    "name": "Dunescape Extrait DP (100ml) - Armaf",
@@ -795,62 +879,77 @@
    "status": "same"
   },
   {
+   "name": "Durrat Al Aros EDP (100ml) - Al Wataniah",
+   "buy": 37700.0,
+   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FZ8ujM2LJKx37V66QReQW.jpg%3Falt%3Dmedia",
+   "stock": true,
+   "status": "new"
+  },
+  {
    "name": "Dynasty EDP (100ml) - Lattafa",
-   "buy": 43400.0,
+   "buy": 44400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fm2TEXPtIIEs1oR3ttkML.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43400.0
   },
   {
    "name": "Eclair Affair EDP (100ml) - French Avenue",
-   "buy": 55100.0,
+   "buy": 56100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FexB2UTx0zsScdRj3Br2w.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55100.0
   },
   {
    "name": "Eclaire Banoffi EDP (100ml) - Lattafa",
-   "buy": 43900.0,
+   "buy": 44800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0rI8lBjv6K0YnCbmCrvO.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 46900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43900.0
   },
   {
    "name": "Eclaire EDP (100ml) - Lattafa",
-   "buy": 64700.0,
+   "buy": 66000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2UAZ3lDHNeEIz4UkvNP2.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 64700.0
   },
   {
    "name": "Eclaire Pistache EDP (100ml) - Lattafa",
-   "buy": 39800.0,
+   "buy": 40600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2Gmlq7kN7FTQrfT4D2md.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 44800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39800.0
   },
   {
    "name": "Emaan EDP (100ml) - Lattafa",
-   "buy": 43000.0,
+   "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FZKqOS6WkElRInbcH83cY.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43000.0
   },
   {
    "name": "Emeer EDP (100ml) - Lattafa",
-   "buy": 71800.0,
+   "buy": 73200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6PEcqgFAsFJrAs7Hk9rd.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 71800.0
   },
   {
    "name": "Erba Pura EDP (100ml) - Xerjoff",
-   "buy": 269999.0,
+   "buy": 275000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FXLCzLaQNErjkEmBgFv3l.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 269999.0
   },
   {
    "name": "Eternal Oud EDP (100ml) - Lattafa",
@@ -858,6 +957,13 @@
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FcIynBeD4ExNPPnYgWv98.jpg%3Falt%3Dmedia",
    "stock": false,
    "status": "same"
+  },
+  {
+   "name": "Exquisite Club EDP (100ml) - Maison Alhambra",
+   "buy": 45400.0,
+   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FQTWsl1oDrcBOsT3qu3vB.jpg%3Falt%3Dmedia",
+   "stock": true,
+   "status": "new"
   },
   {
    "name": "Fahad EDP (80ml) - Lattafa",
@@ -875,32 +981,36 @@
   },
   {
    "name": "Fakhar Platinum EDP (100ml) - Lattafa",
-   "buy": 38100.0,
+   "buy": 39000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FR80JEJ7b26M6WM6csMAB.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 42100.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38100.0
   },
   {
    "name": "Fakhar Rose EDP (100ml) - Lattafa",
-   "buy": 53100.0,
+   "buy": 54200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDCnxDeA7cS3zFHhwVT5J.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 53100.0
   },
   {
    "name": "Fakhar Silver EDP (100ml) - Lattafa",
-   "buy": 49500.0,
+   "buy": 51000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWr94CE7JkiAtAyhvRrVS.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49500.0
   },
   {
    "name": "Fatima Pink Extrait DP (100ml) - Zimaya",
-   "buy": 54000.0,
+   "buy": 55000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FTkglsleZCA29vzG1PwLt.jpg%3Falt%3Dmedia",
-   "stock": false,
-   "status": "same"
+   "stock": true,
+   "status": "up",
+   "prev_buy": 54000.0
   },
   {
    "name": "Fayora EDP (100ml) - Paris Corner",
@@ -911,10 +1021,25 @@
   },
   {
    "name": "Forever Wanted Elixir Parfum (100ml) - Azzaro",
-   "buy": 165000.0,
+   "buy": 170000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVsAYSXGitlRXfLzffV6x.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 165000.0
+  },
+  {
+   "name": "Freeze Extrait DP (100ml) - Riffs",
+   "buy": 85000.0,
+   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbhGwvK5P3zaOLupbVzhK.jpg%3Falt%3Dmedia",
+   "stock": true,
+   "status": "new"
+  },
+  {
+   "name": "Freeze In Flames Extrait DP (100ml) - Riffs",
+   "buy": 85000.0,
+   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FRbxOxeC3pdEQRUJgSaoN.jpg%3Falt%3Dmedia",
+   "stock": true,
+   "status": "new"
   },
   {
    "name": "Freya EDP (100ml) - Al Haramain",
@@ -926,180 +1051,203 @@
   },
   {
    "name": "Galactic Men Intense EDP (100ml) - Maison Alhambra",
-   "buy": 36700.0,
+   "buy": 37700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fsht7rq9MQS7dmU8ZcF2n.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36700.0
   },
   {
    "name": "Ghost Spectre EDP (80ml) - French Avenue",
-   "buy": 69900.0,
+   "buy": 70900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FvgRUlEQOfBSSFYpqThen.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 69900.0
   },
   {
    "name": "Give Me Gourmand Berry On Top EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FfOcjxYJkcoght7U6Mmd5.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Give Me Gourmand Choco Overdose EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FMhL7fCo9eXgtNYkV1kUt.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Give Me Gourmand Cookie Crave EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FrJwIZRMCzwnPSK40jiXH.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Give Me Gourmand Mallow Madness EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FE2R7NwAIwRHV8Rv343uA.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Give Me Gourmand Vainilla Freak EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FtS9H8BhKIReW0niIoBWA.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Give Me Gourmand Whipped Pleasure EDP (100ml) - Lattafa",
-   "buy": 55800.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FXTgCU0llufByfPXPv7c5.jpg%3Falt%3Dmedia",
    "stock": false,
    "old_buy": 59800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Glacier Bella EDP (100ml) - Maison Alhambra",
-   "buy": 36300.0,
+   "buy": 37300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGFb9yEHRq5tP5jOLBrX7.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36300.0
   },
   {
    "name": "Glacier Bold EDP (100ml) - Maison Alhambra",
-   "buy": 34800.0,
+   "buy": 35800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FoEcC8cvCQvP7ExP50sZM.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 34800.0
   },
   {
    "name": "Glacier Gold EDP 100ml - Maison Alhambra",
-   "buy": 38200.0,
+   "buy": 39200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fq7EotEk5DppiX3qSL3BD.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 42800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38200.0
   },
   {
    "name": "Glacier Ultra EDP (100ml) - Maison Alhambra",
-   "buy": 37900.0,
+   "buy": 38900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FzVcPijiUJhBpAQVOOKvl.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37900.0
   },
   {
    "name": "Habik EDP (100ml) - Lattafa",
    "buy": 40500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FyWjayFeUHTPFhL8Jx2uf.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
    "name": "Habik Pink EDP (100ml) - Lattafa",
-   "buy": 53400.0,
+   "buy": 54200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVX3gXoBu01vYvRDkNyJA.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 53400.0
   },
   {
    "name": "Hawas Atlantis EDP (100ml) - Rasasi",
-   "buy": 64000.0,
+   "buy": 65000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGWLcdcJxzbGDLwRd6LzF.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 64000.0
   },
   {
    "name": "Hawas Black EDP (100ml) - Rasasi",
-   "buy": 66300.0,
+   "buy": 67300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5hetH8HALdRr3L2LNift.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 66300.0
   },
   {
    "name": "Hawas Chrome EDP (100ml) - Rasasi",
-   "buy": 83500.0,
+   "buy": 85500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVf3YijpJ5SRWqvXrDTzy.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 87500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 83500.0
   },
   {
    "name": "Hawas Diva EDP (100ml) - Rasasi",
-   "buy": 75500.0,
+   "buy": 76500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FqaNXWGGJWpBuF8QgTNe6.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 75500.0
   },
   {
    "name": "Hawas Eclat EDP (100ml) - Rasasi",
-   "buy": 59300.0,
+   "buy": 60300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fz4Ax54YldZM8OzoNT4g9.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59300.0
   },
   {
    "name": "Hawas Elixir EDP (100ml) - Rasasi",
-   "buy": 59600.0,
+   "buy": 60600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FcdFwVHqY2vPP6kqT5cgQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59600.0
   },
   {
    "name": "Hawas Fire EDP (100ml) - Rasasi",
-   "buy": 59900.0,
+   "buy": 60800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fe6VC2DQqyMcrjOICxLCu.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 64600.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Hawas For Her EDP (100ml) - Rasasi",
-   "buy": 41400.0,
+   "buy": 42400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWOiMYzPzmEakgB5Q8XdC.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41400.0
   },
   {
    "name": "Hawas For Him EDP (100ml) - Rasasi",
-   "buy": 47700.0,
+   "buy": 48700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F02O0LYeNWvmQlSrWYht4.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47700.0
   },
   {
    "name": "Hawas Ice EDP (100ml) - Rasasi",
-   "buy": 66000.0,
+   "buy": 67000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJOvIdH6d3CPkHSraJmfE.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 66000.0
   },
   {
    "name": "Hawas Kobra EDP (100ml) - Rasasi",
@@ -1111,47 +1259,54 @@
   },
   {
    "name": "Hawas London EDP (100ml) - Rasasi",
-   "buy": 56800.0,
+   "buy": 57800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FZ0iCqAlEvRQB6t3Cdh5d.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 56800.0
   },
   {
    "name": "Hawas Malibu EDP (100ml) - Rasasi",
-   "buy": 69900.0,
+   "buy": 64000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FAeJX7nraUMvc4NwFwPIJ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "old_buy": 69900.0,
+   "status": "down",
+   "prev_buy": 69900.0
   },
   {
    "name": "Hawas Pink EDP (100ml) - Rasasi",
-   "buy": 59800.0,
+   "buy": 60800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0WGKpI2qukbzWyEU42s1.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 66500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59800.0
   },
   {
    "name": "Hawas Tropical EDP (100ml) - Rasasi",
-   "buy": 59900.0,
+   "buy": 60800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6DoftnFUWlJeEDvymFry.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 62900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Hawas Verde EDP (100ml) - Rasasi",
-   "buy": 69300.0,
+   "buy": 70300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FNq41sOi6U8A2omv5pSna.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 69300.0
   },
   {
    "name": "Haya Rose EDP (100ml) - Lattafa",
-   "buy": 49900.0,
+   "buy": 50600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fno0ZZ50Ds1YAgTKn9UcQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Hayaati Al Maleky EDP (100ml) - Lattafa",
@@ -1162,31 +1317,35 @@
   },
   {
    "name": "Hayaati Black EDP (100ml) - Lattafa",
-   "buy": 35800.0,
+   "buy": 36500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F54z3Vm4A5klCRuRAmoUc.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 35800.0
   },
   {
    "name": "Hayaati Florence EDP (100ml) - Lattafa",
-   "buy": 33500.0,
+   "buy": 34000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FaFcf2dd2Tf3F2EdXhrv7.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33500.0
   },
   {
    "name": "Hayaati Gold EDP (100ml) - Lattafa",
-   "buy": 33500.0,
+   "buy": 34000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6DFV7W02ZyBsTLGghfcp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33500.0
   },
   {
    "name": "Her Confession EDP (100ml) - Lattafa",
-   "buy": 59000.0,
+   "buy": 60000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6lA5SdzFj0oxkgjPo89b.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59000.0
   },
   {
    "name": "Hercules EDP (100ml) - Maison Alhambra",
@@ -1204,31 +1363,35 @@
   },
   {
    "name": "Honor y Glory EDP (100ml) - Lattafa",
-   "buy": 43000.0,
+   "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FOCvqy2DGhqDOMOo6eBDj.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43000.0
   },
   {
    "name": "Island Bliss EDP (100ml) - Armaf",
-   "buy": 62100.0,
+   "buy": 63100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5NxSYKIYI0DRCFrsA4pb.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 62100.0
   },
   {
    "name": "Island breeze EDP (100ml) - Armaf",
-   "buy": 61800.0,
+   "buy": 62800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FZQjh9Tk2bCTSuZskK6YO.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 61800.0
   },
   {
    "name": "Island Extrait DP (100ml) - Khadlaj",
-   "buy": 55800.0,
+   "buy": 56900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FhJry9CDLWSi5kKEeCDkB.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55800.0
   },
   {
    "name": "Island Vanilla Dunes Extrait DP (100ml) - Khadlaj",
@@ -1240,40 +1403,44 @@
   },
   {
    "name": "Isqh Al Shuyukh Gold EDP (100ml) - Lattafa",
-   "buy": 42900.0,
+   "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FF3eJyXFd0xyDRG509j5B.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 47600.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42900.0
   },
   {
    "name": "Isqh Al Shuyukh Silver EDP (100ml) - Lattafa",
-   "buy": 47500.0,
+   "buy": 48500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FvcwL4zgJaUnwXxPOwVkG.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47500.0
   },
   {
    "name": "Jasoor EDP (100ml) - Lattafa",
-   "buy": 43200.0,
+   "buy": 44200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FxafDnPc7eeE9bOJjjbv4.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 49800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43200.0
   },
   {
    "name": "Jean Lowe Immortel EDP (100ml) - Maison Alhambra",
    "buy": 45400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVgHqlr8rcFtpaUcuciJn.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
    "name": "Jean Lowe Maitre EDP (100ml) - Maison Alhambra",
-   "buy": 39400.0,
+   "buy": 40400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIE4YyP3CgBPYYzUNGqr9.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39400.0
   },
   {
    "name": "Jean Lowe Noir EDP (100ml) - Maison Alhambra",
@@ -1291,10 +1458,11 @@
   },
   {
    "name": "Jorge Di Profumo Aqua EDP (100ml) - Maison Alhambra",
-   "buy": 39300.0,
+   "buy": 40300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmeyCBFiynS0MS0mlMvZk.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39300.0
   },
   {
    "name": "Jorge Di Profumo Deep Blue EDP (100ml) - Maison Alhambra",
@@ -1305,17 +1473,19 @@
   },
   {
    "name": "Jorge Di Profumo EDP (100ml) - Maison Alhambra",
-   "buy": 36200.0,
+   "buy": 37200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtO1DGv1K7Ve2yaSfOaZp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36200.0
   },
   {
    "name": "Jouri EDP (100ml) - Lattafa",
-   "buy": 52700.0,
+   "buy": 54000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJ5LEZzLez5tmRDIQZnhc.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 52700.0
   },
   {
    "name": "Khair Confection EDP (100ml) - Paris Corner",
@@ -1333,53 +1503,60 @@
   },
   {
    "name": "Khair Pistacho EDP (100ml) - Paris Corner",
-   "buy": 41000.0,
+   "buy": 42000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fk7QC8Zm7jLRVlybwSDuK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41000.0
   },
   {
    "name": "Khamrah Dukhan EDP (100ml) - Lattafa",
-   "buy": 42000.0,
+   "buy": 42800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F53cEv2z7pCJXd8NVW1HZ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42000.0
   },
   {
    "name": "Khamrah EDP (100ml) - Lattafa",
-   "buy": 51700.0,
+   "buy": 52700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuDDpVKefpc6JEBHBew1G.jpg%3Falt%3Dmedia",
-   "stock": false,
-   "status": "same"
+   "stock": true,
+   "status": "up",
+   "prev_buy": 51700.0
   },
   {
    "name": "Khamrah Qahwa EDP (100ml) - Lattafa",
-   "buy": 42000.0,
+   "buy": 42800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FjR7WrluZQ1UWYOnndrNs.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42000.0
   },
   {
    "name": "Khamrah Waha EDP (100ml) - Lattafa",
-   "buy": 76000.0,
+   "buy": 77500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fpo8XP5T8Hv6HsCbH92ve.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 95000.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 76000.0
   },
   {
    "name": "Kismet Women EDP (100ml) - Maison Alhambra",
-   "buy": 39600.0,
+   "buy": 40600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FAafKI08mMNFS8vhMQYlV.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39600.0
   },
   {
    "name": "Kit Bade Al Oud 4 Piezas",
-   "buy": 49900.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F3uQOzqLE0dmHJ3au6cug.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Kit Club De Nuit 10 Piezas",
@@ -1390,10 +1567,11 @@
   },
   {
    "name": "Kit Club De Nuit 4 Piezas",
-   "buy": 79800.0,
+   "buy": 80800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbporLoe385tPt0wBvEnP.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79800.0
   },
   {
    "name": "Kit Club De Nuit Woman 4 Piezas",
@@ -1404,10 +1582,11 @@
   },
   {
    "name": "Kit Haya Rose 3 Piezas",
-   "buy": 79000.0,
+   "buy": 80000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmXZZ12ReilRxzZrRLBfR.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79000.0
   },
   {
    "name": "KIT King Of Arabia 4 Piezas",
@@ -1418,39 +1597,44 @@
   },
   {
    "name": "Kit Mandarin Sky 4 Piezas",
-   "buy": 79800.0,
+   "buy": 80800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FQOLbQPIvf9RoxTOLNiDV.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79800.0
   },
   {
    "name": "Kit Mayar Cherry 3 Piezas",
-   "buy": 69000.0,
+   "buy": 70000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FNkmwbpMTIDyHCHY9mfaa.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 69000.0
   },
   {
    "name": "Kit Noble Blush 3 Piezas",
-   "buy": 79800.0,
+   "buy": 80800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FfKYDMjOGzKfcJuQJDeyT.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79800.0
   },
   {
    "name": "Kit Odyssey Candee 4 Piezas",
-   "buy": 78000.0,
+   "buy": 79000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtAvelF1LZ8s8V7bn4mxY.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 78000.0
   },
   {
    "name": "Kit Sublime 3 Piezas",
-   "buy": 58900.0,
+   "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FzHKozqYvKXBQCji9Xrqr.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 62900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 58900.0
   },
   {
    "name": "KIT Yara Moi 3 Piezas",
@@ -1461,10 +1645,11 @@
   },
   {
    "name": "La Collection D'Antiques 1910 EDP (100ml) - Lattafa",
-   "buy": 62600.0,
+   "buy": 63600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVFWVnECsy8trVn5L0iwg.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 62600.0
   },
   {
    "name": "La Rouge Baroque EDP (100ml) - Maison Alhambra",
@@ -1475,10 +1660,11 @@
   },
   {
    "name": "La Vivacite EDP (100ml) - Maison Alhambra",
-   "buy": 39400.0,
+   "buy": 40400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FR0orBRguvX6iHfsl9IOX.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39400.0
   },
   {
    "name": "La Vivacite Intensa EDP (100ml) - Maison Alhambra",
@@ -1489,24 +1675,27 @@
   },
   {
    "name": "Lady Million 80ml + Perfumero 20ml - Paco Rabanne",
-   "buy": 126000.0,
+   "buy": 129900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBeJcKC6FZnJIHhyY0lUv.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 126000.0
   },
   {
    "name": "Leonie EDP (100ml) - Maison Alhambra",
-   "buy": 48600.0,
+   "buy": 49600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5FQBg7zybJX7kMzGWXaK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 48600.0
   },
   {
    "name": "Liquid Brun EDP (100ml) - French Avenue",
-   "buy": 75500.0,
+   "buy": 77000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FPx8MIRheVJqr1kwlxFGK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 75500.0
   },
   {
    "name": "Love Spell (250ml) - Victoria's Secret",
@@ -1517,38 +1706,43 @@
   },
   {
    "name": "Love Spell Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJsu1NgK6sS3z4rRfNxJt.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Maahir Black EDP (100ml) - Lattafa",
-   "buy": 43800.0,
+   "buy": 44900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FEgKeqaLXzCUP10n3SqrR.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43800.0
   },
   {
    "name": "Maahir Gold EDP (100ml) - Lattafa",
-   "buy": 44100.0,
+   "buy": 45100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlF465fwjbB6evKHG6ur2.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44100.0
   },
   {
    "name": "Maahir Legacy EDP (100ml) - Lattafa",
-   "buy": 49200.0,
+   "buy": 50000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgOtmvCPHBakKjs3fCWgT.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49200.0
   },
   {
    "name": "Marshmellow Blush EDP (100ml) - Paris Corner",
-   "buy": 59700.0,
+   "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGuCunrGAvJA0iXY6GPDk.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "down",
+   "prev_buy": 59700.0
   },
   {
    "name": "Mascara de pestañas Colosal Bubble",
@@ -1573,16 +1767,17 @@
   },
   {
    "name": "Mascarilla Capilar (500ml) - Karseell",
-   "buy": 15900.0,
+   "buy": 16300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWa8bN4Gb14Sl6Cjn9WTM.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 15900.0
   },
   {
    "name": "Mast Rome Extradose Pour Femme EDP (100ml) - Bharara",
    "buy": 59800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMK6GV5u5DiPwn2Z8fQoc.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -1594,17 +1789,19 @@
   },
   {
    "name": "Mayar Cherry EDP (100ml) - Lattafa",
-   "buy": 41800.0,
+   "buy": 42600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4gRuq2LT55YczFLxczAu.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41800.0
   },
   {
    "name": "Mayar Intense EDP (100ml) - Lattafa",
-   "buy": 40600.0,
+   "buy": 41400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtoJh4rsyVhQkhuaE0vJA.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 40600.0
   },
   {
    "name": "Mayar Pink EDP (100ml) - Lattafa",
@@ -1615,17 +1812,19 @@
   },
   {
    "name": "Melingue EDP (100ml) - French Avenue",
-   "buy": 57300.0,
+   "buy": 58300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F9Wmk1n6kGEyJXYeBiN8g.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 57300.0
   },
   {
    "name": "Minya EDP (100ml) - Paris Corner",
-   "buy": 58700.0,
+   "buy": 59700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2WCYhbVg8CQMq08pDECA.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 58700.0
   },
   {
    "name": "Molten Caramel EDP (100ml) - Paris Corner",
@@ -1643,75 +1842,85 @@
   },
   {
    "name": "Musaman Black Intense EDP (100ml) - Lattafa",
-   "buy": 66000.0,
+   "buy": 67300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fi5QTJ1Zjnxwjet5oZvFF.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 66000.0
   },
   {
    "name": "Musaman EDP (100ml) - Lattafa",
-   "buy": 44900.0,
+   "buy": 45700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtzleaXgoccJ9WaKG6ent.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44900.0
   },
   {
    "name": "Musaman White Intense EDP (100ml) - Lattafa",
-   "buy": 67700.0,
+   "buy": 68900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FecOgRQXxDwbXvCy4602M.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 67700.0
   },
   {
    "name": "Nebras EDP (100ml) - Lattafa",
-   "buy": 54000.0,
+   "buy": 55000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FYuAKEqJPgl4lIoz0dN24.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 57000.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 54000.0
   },
   {
    "name": "Nebras Elixir EDP (100ml) - Lattafa",
-   "buy": 49200.0,
+   "buy": 50200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2Jbphf9Tq6tsGTeW4tIa.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49200.0
   },
   {
    "name": "Nitro Red EDP (100ml) - Paris Corner",
-   "buy": 60900.0,
+   "buy": 61700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fj60nHiLigNkmwcWNCJzq.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 60900.0
   },
   {
    "name": "No 2 Men EDP (100ml) - Maison Alhambra",
-   "buy": 38000.0,
+   "buy": 39000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fv48TRZ6pRTmvY0U1EW6k.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38000.0
   },
   {
    "name": "Noble Blush EDP (100ml) - Lattafa",
-   "buy": 46800.0,
+   "buy": 47800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJidqsv3i16gN1Q395qrY.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46800.0
   },
   {
    "name": "Odyssey Aoud EDP (100ml) - Armaf",
-   "buy": 46000.0,
+   "buy": 47000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmlI4T7gBusxlyVD2yCeb.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46000.0
   },
   {
    "name": "Odyssey Aqua EDP (100ml) - Armaf",
-   "buy": 53900.0,
+   "buy": 54900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F1NlN0cVyklDcmoJJmu9F.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 59900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 53900.0
   },
   {
    "name": "Odyssey Artisto EDP (100ml) - Armaf",
@@ -1722,55 +1931,62 @@
   },
   {
    "name": "Odyssey Bahamas EDP (100ml) - Armaf",
-   "buy": 41500.0,
+   "buy": 42500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuML7U7YyerYVm4wBbeiV.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 49000.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41500.0
   },
   {
    "name": "Odyssey Candee EDP (100ml) - Armaf",
-   "buy": 43900.0,
+   "buy": 44900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDAf0T5RShfhcik8jAUnE.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43900.0
   },
   {
    "name": "Odyssey Dubai Chocolate EDP (100ml) - Armaf",
-   "buy": 37200.0,
+   "buy": 38200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F0Gty6TrHGfuplicPe2wv.jpg%3Falt%3Dmedia",
-   "stock": false,
-   "status": "same"
+   "stock": true,
+   "status": "up",
+   "prev_buy": 37200.0
   },
   {
    "name": "Odyssey Go Mango EDP (100ml) - Armaf",
-   "buy": 54800.0,
+   "buy": 55800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4j3QrPmaq9DQ1F4hX7qD.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 57700.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 54800.0
   },
   {
    "name": "Odyssey Homme Black EDP (100ml) - Armaf",
-   "buy": 39800.0,
+   "buy": 40800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FzJDX7appJUwEs0REtOz6.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 42800.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39800.0
   },
   {
    "name": "Odyssey Homme White EDP (100ml) - Armaf",
-   "buy": 56300.0,
+   "buy": 57300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMRLm8ITPgpIBjvIMl5Vl.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 56300.0
   },
   {
    "name": "Odyssey Limoni EDP (100ml) - Armaf",
-   "buy": 42900.0,
+   "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FqcCrk5kJOFDgfAIrJAYC.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42900.0
   },
   {
    "name": "Odyssey Mandarin Sky EDP (100ml) - Armaf",
@@ -1781,11 +1997,12 @@
   },
   {
    "name": "Odyssey Mandarin Sky Elixir EDP (100ml) - Armaf",
-   "buy": 63500.0,
+   "buy": 65000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUXJ5T4wwww8bP52IcaJi.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 66100.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 63500.0
   },
   {
    "name": "Odyssey Mandarin Sky Vintage EDP (100ml) - Armaf",
@@ -1797,38 +2014,43 @@
   },
   {
    "name": "Odyssey Marshmellow EDP (100ml) - Armaf",
-   "buy": 54000.0,
+   "buy": 55000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fig70qiSk7mElurYen3HM.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 54000.0
   },
   {
    "name": "Odyssey Mega EDP (100ml) - Armaf",
-   "buy": 44800.0,
+   "buy": 45800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fz3u5Ask7tFxINhD3Oj9S.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44800.0
   },
   {
    "name": "Odyssey Spectra EDP (100ml) - Armaf",
-   "buy": 42100.0,
+   "buy": 43100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FOOjGinZAqipNcNeclN11.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42100.0
   },
   {
    "name": "Odyssey Tyrant EDP (100ml) - Armaf",
-   "buy": 39700.0,
+   "buy": 40700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDYEwK5lJMY4whO7TLiwe.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39700.0
   },
   {
    "name": "Oleo (50ml) - Karseell",
-   "buy": 14500.0,
+   "buy": 14900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FAmyBoLiDXvroF57s9DYt.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 14500.0
   },
   {
    "name": "Olivia EDP (100ml) - Maison Alhambra",
@@ -1839,38 +2061,43 @@
   },
   {
    "name": "Opulent Dubai EDP (100ml) - Lattafa",
-   "buy": 37800.0,
+   "buy": 38800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FyUVf3xL6RSwG60nU4hxO.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37800.0
   },
   {
    "name": "Oud For Glory EDP (100ml) - Lattafa",
-   "buy": 43200.0,
+   "buy": 44100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGen0KusJFMQV0BdaWUsX.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43200.0
   },
   {
    "name": "Pacific Blue EDP (100ml) - Maison Alhambra",
-   "buy": 40000.0,
+   "buy": 41000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FuisI56Cml3YhDlOaNmCr.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 40000.0
   },
   {
    "name": "Panther EDP (100ml) - Maison Alhambra",
-   "buy": 35000.0,
+   "buy": 36000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FTG3fv3FBGtOOpUQYDcdJ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 35000.0
   },
   {
    "name": "Pdrn Pink Collagen Capsule Cream (55g) - Medicube",
-   "buy": 43400.0,
+   "buy": 44400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FwyBycSAO5blKkW1vrD7G.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43400.0
   },
   {
    "name": "Perfumero Recargable (5ml)",
@@ -1881,40 +2108,45 @@
   },
   {
    "name": "Perseus EDP (100ml) - Maison Alhambra",
-   "buy": 37500.0,
+   "buy": 38500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FHyDSENVns5vwSuw0Ic8Z.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37500.0
   },
   {
    "name": "Perseus Exclusif EDP (100ml) - Maison Alhambra",
-   "buy": 33900.0,
+   "buy": 34900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F7ox9SJYSttZSmdPmOovK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 33900.0
   },
   {
    "name": "Petra EDP (100ml) - Lattafa",
-   "buy": 42200.0,
+   "buy": 43200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FOfJ2YuOAYRnVi01BO1IH.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42200.0
   },
   {
    "name": "Philos Opus Noir EDP (100ml) - Maison Alhambra",
-   "buy": 29500.0,
+   "buy": 30500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fagxu4UajUC94FS9buyTq.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 31500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 29500.0
   },
   {
    "name": "Philos Pura EDP (100ml) - Maison Alhambra",
-   "buy": 39800.0,
+   "buy": 40800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Ftaom8wx6LMJozwLPI4GT.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 44100.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39800.0
   },
   {
    "name": "Philos Rosso EDP (100ml) - Maison Alhambra",
@@ -1926,17 +2158,19 @@
   },
   {
    "name": "Philos Shine",
-   "buy": 36300.0,
+   "buy": 37300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FS9fw9Q67OecdvXKCpVWj.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36300.0
   },
   {
    "name": "Pink Velvet EDP (100ml) - Maison Alhambra",
-   "buy": 35500.0,
+   "buy": 36500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FNGZ0meuEZ7fTjxJBqnkr.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 35500.0
   },
   {
    "name": "Pisa EDP (100ml) - Lattafa",
@@ -1954,68 +2188,76 @@
   },
   {
    "name": "Pure Seduction Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FLZ8RRq7LBJMohBW6M10Y.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Qaed Al Fursan Black EDP (100ml) - Lattafa",
-   "buy": 38600.0,
+   "buy": 39200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FOk4hRAN2vaQIy1ZV4zTp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38600.0
   },
   {
    "name": "Qaed Al Fursan Unlimited EDP (100ml) - Lattafa",
-   "buy": 34000.0,
+   "buy": 34800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fmds7Y25GqQQDifIGhKAl.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 34000.0
   },
   {
    "name": "Qaed Al Fursan Untamed EDP (100ml) - Lattafa",
-   "buy": 34000.0,
+   "buy": 34800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FNBBjY5YNhPKHPQEJ6vDe.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 34000.0
   },
   {
    "name": "Qimmah For Men EDP (100ml) - Lattafa",
-   "buy": 31700.0,
+   "buy": 32400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIJi622F5hPg70jjOyEoI.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 31700.0
   },
   {
    "name": "Qimmah For Women EDP (100ml) - Lattafa",
-   "buy": 38700.0,
+   "buy": 39800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FHbuXrzmNhvQsn2LNdEBQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38700.0
   },
   {
    "name": "Ramz Gold EDP (100ml) - Lattafa",
-   "buy": 34400.0,
+   "buy": 35400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6rd0P57Vrm33GZ3ymwGb.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 38500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 34400.0
   },
   {
    "name": "Ramz Silver EDP (100ml) - Lattafa",
    "buy": 34400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Flxhn3rP4GZ1RUq4Ssfn1.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 38500.0,
    "status": "same"
   },
   {
    "name": "Rave Now Black EDP (100ml) - Lattafa",
-   "buy": 40400.0,
+   "buy": 41200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgNEUaiUFH6QfLwV4rQjl.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 40400.0
   },
   {
    "name": "Rave Now Pink EDP (100ml) - Lattafa",
@@ -2026,111 +2268,126 @@
   },
   {
    "name": "Rave Now White EDP (100ml) - Lattafa",
-   "buy": 37900.0,
+   "buy": 38800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FcPrF5C1Nzx9Rg4QVZ26K.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37900.0
   },
   {
    "name": "Rayhaan Aura EDP (100ml) - Rayhaan",
-   "buy": 68900.0,
+   "buy": 69900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJmb25XKzR0tUMmKjYWBQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 68900.0
   },
   {
    "name": "Rayhaan Ayka EDP (100ml) - Rayhaan",
-   "buy": 50500.0,
+   "buy": 51500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FVc8amk1Qcgv99FZAU7Rg.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 50500.0
   },
   {
    "name": "Rayhaan Elixir EDP (100ml) - Rayhaan",
-   "buy": 59000.0,
+   "buy": 60000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbtEhMBp6DQ2LuT8nNNqM.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59000.0
   },
   {
    "name": "Rayhaan Italia EDP (100ml) - Rayhaan",
-   "buy": 83500.0,
+   "buy": 85500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbFnIuXtjkfOMFQF78Vfl.jpg%3Falt%3Dmedia",
-   "stock": false,
+   "stock": true,
    "old_buy": 93500.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 83500.0
   },
   {
    "name": "Rayhaan Jungle Vibe EDP (100ml) - Rayhaan",
-   "buy": 55200.0,
+   "buy": 56200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FvJ1OlMpMj9DUu9ozpnIt.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55200.0
   },
   {
    "name": "Rayhaan Lion EDP (100ml) - Rayhaan",
-   "buy": 44800.0,
+   "buy": 45800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F3llmJcee5QN2TwR1sQb2.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 56600.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44800.0
   },
   {
    "name": "Rayhaan Nocturno EDP (100ml) - Rayhaan",
-   "buy": 59900.0,
+   "buy": 60900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FqPpoRuY8P4ualURP4BAs.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Rayhaan Nocturno Elixir EDP (100ml) - Rayhaan",
-   "buy": 59900.0,
+   "buy": 60900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FbI7aVpeMuaAjHPUdS7O1.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Rayhaan Obsidian EDP (100ml) - Rayhaan",
-   "buy": 65200.0,
+   "buy": 66200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FYizYMbHeFsT6Y4eRGcKV.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 65200.0
   },
   {
    "name": "Rayhaan Pacific Aura EDP (100ml) - Rayhaan",
-   "buy": 57900.0,
+   "buy": 58900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FIVQeDd8Vvt76jSD2AFAh.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 57900.0
   },
   {
    "name": "Rayhaan Pacific Pour Homme EDP (100ml)",
-   "buy": 59900.0,
+   "buy": 60900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FQU3IuhBWTJPIBK8vDacK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Rayhaan Pharaoh EDP (100ml) - Rayhaan",
-   "buy": 57000.0,
+   "buy": 58000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5Ew7NZHBpX1PBjSokT5e.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 57000.0
   },
   {
    "name": "Rayhaan Valhalla EDP (100ml) - Rayhaan",
-   "buy": 51000.0,
+   "buy": 52000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMhOCA5bNFMdTVrqmu7WJ.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 59300.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 51000.0
   },
   {
    "name": "Rayhaan Vibe Tropical EDP (100ml) - Rayhaan",
-   "buy": 55200.0,
+   "buy": 56200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FEXiOIbvTNPuJ6fNTubdp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55200.0
   },
   {
    "name": "Remas EDP (100ml) - Lattafa",
@@ -2141,31 +2398,35 @@
   },
   {
    "name": "Reyna EDP (100ml) - Maison Alhambra",
-   "buy": 39600.0,
+   "buy": 40600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FevrcPAj5f2g52OW5TxNg.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39600.0
   },
   {
    "name": "Rifaaqat Adorn EDP (85ml) - Paris Corner",
-   "buy": 59600.0,
+   "buy": 60600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FM4Mx3FUSFNxvsoABCQbw.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59600.0
   },
   {
    "name": "Rifaaqat EDP (85ml) - Paris Corner",
-   "buy": 47200.0,
+   "buy": 48200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FApsW53SOrWwZ6NeZBdGG.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47200.0
   },
   {
    "name": "Rose Oregami EDP (100ml) - Maison Alhambra",
-   "buy": 41000.0,
+   "buy": 42000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FglHHF3wkBJwOMz0JFV36.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41000.0
   },
   {
    "name": "Rose Seduction EDP (100ml) - Maison Alhambra",
@@ -2176,52 +2437,59 @@
   },
   {
    "name": "Royal Sapphire EDP (100ml) - Lattafa",
-   "buy": 44300.0,
+   "buy": 45300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FTxtIErgO0C2XO26MCI2i.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44300.0
   },
   {
    "name": "Sabah Al Ward EDP (100ml) - Al Wataniah",
-   "buy": 39200.0,
+   "buy": 40200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FEBkNgpoFWoAwVHNOhpaw.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39200.0
   },
   {
    "name": "Sabah Al Ward Sugar EDP (100ml) - Al Wataniah",
-   "buy": 36500.0,
+   "buy": 37500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FdG8abK2sJaFsiucnBNjG.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36500.0
   },
   {
    "name": "Sabah Al Ward Valentine EDP (100ml) - Al Wataniah",
-   "buy": 49700.0,
+   "buy": 50700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6Izmu2KyAH9cbirUUhhU.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49700.0
   },
   {
    "name": "Sakeena EDP (100ml) - Lattafa",
-   "buy": 40800.0,
+   "buy": 41400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FrNQol8bsiFjbQILaOr78.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 40800.0
   },
   {
    "name": "Salvo EDP (100ml) - Maison Alhambra",
-   "buy": 46100.0,
+   "buy": 47100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4QEJkKub83lgtuSEKodO.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46100.0
   },
   {
    "name": "Salvo Elixir EDP (100ml) - Maison Alhambra",
-   "buy": 39000.0,
+   "buy": 40000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FcgG9f73tWMudVmvVtUPr.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39000.0
   },
   {
    "name": "Salvo Intense EDP (100ml) - Maison Alhambra",
@@ -2232,32 +2500,36 @@
   },
   {
    "name": "Sceptre Amazonite EDP (100ml) - Maison Alhambra",
-   "buy": 36500.0,
+   "buy": 37500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FU5lkrK0cgkCSZ3DS9gl3.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36500.0
   },
   {
    "name": "Sceptre Malachite EDP (100ml) - Maison Alhambra",
-   "buy": 49500.0,
+   "buy": 50000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FqCzfXeLRZLEyUGHeUJbW.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49500.0
   },
   {
    "name": "Sehr EDP (100ml) - Lattafa",
-   "buy": 49400.0,
+   "buy": 50400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBhkZkydxhyBmwTF9yGAP.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 53400.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49400.0
   },
   {
    "name": "Sensual Vainilla 100ml (EDP) - Maison Alhambra",
-   "buy": 36700.0,
+   "buy": 37700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F392UJJwqbXGcdomqPNVf.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36700.0
   },
   {
    "name": "Shagaf Al Ward EDP (100ml) - Al Wataniah",
@@ -2268,59 +2540,66 @@
   },
   {
    "name": "Shasheen Gold EDP (100ml) - Lattafa",
-   "buy": 42300.0,
+   "buy": 43300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4Xt6eEiyX7fQSX2ysWKp.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42300.0
   },
   {
    "name": "Shasheen Silver EDP (100ml) - Lattafa",
-   "buy": 44100.0,
+   "buy": 45100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5wClf2i7HXIwAPLsvrbQ.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44100.0
   },
   {
    "name": "Smooky Touch EDP (100ml) - Maison Alhambra",
-   "buy": 37900.0,
+   "buy": 38900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWJkic7WuuwOLFV30MTqN.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 37900.0
   },
   {
    "name": "So Candid Pour Femme EDP (100ml) - Maison Alhambra",
-   "buy": 36500.0,
+   "buy": 37500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F8pWrU6i7wzmA2jGLI5i4.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36500.0
   },
   {
    "name": "Stallion 53 EDP (100ml) - Emper",
-   "buy": 42500.0,
+   "buy": 43500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FS5c0nleJ1iDwSEvYjaEy.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 48100.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42500.0
   },
   {
    "name": "Sublime EDP (100ml) - Lattafa",
-   "buy": 42000.0,
+   "buy": 42800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FXhYdYjx7Ss35ystpvnRc.jpg%3Falt%3Dmedia",
-   "stock": true,
-   "status": "same"
+   "stock": false,
+   "status": "up",
+   "prev_buy": 42000.0
   },
   {
    "name": "Supremacy Collector's Edition EDP (100ml) - Afnan",
-   "buy": 101600.0,
+   "buy": 103700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FW4wjlLrrbBQFOUYpmzUf.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 101600.0
   },
   {
    "name": "Supremacy Silver EDP 100ml - Afnan",
    "buy": 59200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Feh6FM21kmfhdWcfoJWb9.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -2332,62 +2611,70 @@
   },
   {
    "name": "Taskeen Lactea EDP (100ml) - Paris Corner",
-   "buy": 43000.0,
+   "buy": 44000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FZctUSmycicBJtGTJx8gt.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43000.0
   },
   {
    "name": "Teriaq EDP (100ml) - Lattafa",
-   "buy": 43200.0,
+   "buy": 44000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmuIz3xu3fle61Jc4ooE8.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 45900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 43200.0
   },
   {
    "name": "Teriaq Intense EDP (100ml) - Lattafa",
-   "buy": 55700.0,
+   "buy": 56900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fl4ERFPqzSJDm5KNQnem9.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55700.0
   },
   {
    "name": "Thahaani EDP (100ml) - Al Wataniah",
-   "buy": 34700.0,
+   "buy": 35700.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FByk6DdLOplMzMt7M9FGA.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 36700.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 34700.0
   },
   {
    "name": "Tharwah Gold EDP (100ml) - Lattafa",
-   "buy": 95000.0,
+   "buy": 96900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F8fwQNlOL4CYyflFmPGHK.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 99900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 95000.0
   },
   {
    "name": "Tharwah Silver EDP (100ml) - Lattafa",
-   "buy": 79500.0,
+   "buy": 82000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fx5kLkr110eq5LHpKW79M.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79500.0
   },
   {
    "name": "The Kingdom EDP (100ml) - Lattafa",
-   "buy": 51200.0,
+   "buy": 52200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBTpCdHIRBjjie6uAXXlT.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 51200.0
   },
   {
    "name": "The Kingdom Women EDP (100ml) - Lattafa",
-   "buy": 46900.0,
+   "buy": 47900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F8hPG2SZ5LPTCntddMtJE.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 46900.0
   },
   {
    "name": "Thurathi Blue EDP (90ml) - Afnan",
@@ -2398,52 +2685,60 @@
   },
   {
    "name": "Thurathi Brown EDP (90ml) - Afnan",
-   "buy": 58300.0,
+   "buy": 59300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FCMDtjQM5v6j6uWbo9yji.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 58300.0
+  },
+  {
+   "name": "Thurathi Electric EDP (100ml) - Afnan",
+   "buy": 59900.0,
+   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Fz6un2yV5MB6eWsZqdSkq.jpg%3Falt%3Dmedia",
+   "stock": true,
+   "status": "new"
   },
   {
    "name": "Thurathi Purple EDP (90ml) - Afnan",
-   "buy": 58300.0,
+   "buy": 59300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FhyTOoP79trDstRqMxtQn.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 58300.0
   },
   {
    "name": "Thurathi Red EDP (90ml) - Afnan",
-   "buy": 59900.0,
+   "buy": 60900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FJ65eoOt0l7jwWsgaVMte.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 59900.0
   },
   {
    "name": "Tiramisu Caramel EDP (100ml) - Zimaya",
-   "buy": 49400.0,
+   "buy": 45000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FDTqhTWxTMCAmlfQ1hZVC.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "old_buy": 50500.0,
+   "status": "down",
+   "prev_buy": 49400.0
   },
   {
    "name": "Tiramisu Coco EDP (100ml) - Zimaya",
-   "buy": 47100.0,
+   "buy": 45000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgEYXEsnIqIqYzLrTk7J3.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "old_buy": 50500.0,
+   "status": "down",
+   "prev_buy": 47100.0
   },
   {
    "name": "Toro EDP (100ml) - Maison Alhambra",
-   "buy": 38600.0,
+   "buy": 39600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FtLEBOuKyaNInEquYHVcA.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
-  },
-  {
-   "name": "Tubos Arabes 35ml",
-   "buy": 3000.0,
-   "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F2qF6cBLBJTkgFopah2Er.jpg%3Falt%3Dmedia",
-   "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38600.0
   },
   {
    "name": "Velvet Petals (250ml) - Victoria's Secret",
@@ -2454,10 +2749,11 @@
   },
   {
    "name": "Velvet Petals Shimmer (250ml) - Victoria's Secret",
-   "buy": 30400.0,
+   "buy": 30900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FO3L7VuAhq68FdUzHMuB5.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 30400.0
   },
   {
    "name": "Veneno Bianco EDP (100ml) - French Avenue",
@@ -2469,163 +2765,187 @@
   },
   {
    "name": "Veneno EDP (100ml) - French Avenue",
-   "buy": 79300.0,
+   "buy": 80300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgSNE95fq25CBGUy5HbLJ.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 89300.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 79300.0
   },
   {
    "name": "Veneno Scarlet Extrait DP (100ml) - French Avenue",
-   "buy": 72400.0,
+   "buy": 73400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGZ9LFIYdqw7Royi4lOoL.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 72400.0
   },
   {
    "name": "Victoria EDP (100ml) - Lattafa",
-   "buy": 49900.0,
+   "buy": 50900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUPkf8RrxBrHP9FPYLVac.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 52000.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 49900.0
   },
   {
    "name": "Victorioso EDP (100ml) - Maison Alhambra",
-   "buy": 39600.0,
+   "buy": 40600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMpHBwaYYfnlkYCMWT8Sx.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39600.0
   },
   {
    "name": "Vintage Radio EDP (100ml) - Lattafa",
-   "buy": 47400.0,
+   "buy": 48400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FhfAI3mJ5U4NCGRn84aLj.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 49900.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 47400.0
   },
   {
    "name": "Vulcan Baie EDP (100ml) - French Avenue",
-   "buy": 55300.0,
+   "buy": 56300.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FdZQCSoBtglqPvb1u2FDK.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 55300.0
   },
   {
    "name": "Vulcan Black Friday French Avenue EDP (100ml) - French Avenue",
-   "buy": 70500.0,
+   "buy": 71500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252Ft8cHeVEG3QIdKkLaguHA.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 70500.0
   },
   {
    "name": "Vulcan Feu EDP (100ml) - French Avenue",
-   "buy": 69600.0,
+   "buy": 70600.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FBVOXNLroLYHMYRo4Uj94.jpg%3Falt%3Dmedia",
-   "stock": false,
-   "status": "same"
+   "stock": true,
+   "status": "up",
+   "prev_buy": 69600.0
   },
   {
    "name": "Vulcan Sable EDP (100ml) - French Avenue",
-   "buy": 57800.0,
+   "buy": 58800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMr98Rs3ml9FKQfDBhb4N.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 57800.0
   },
   {
    "name": "Yara Candy EDP (100ml) - Lattafa",
-   "buy": 44000.0,
+   "buy": 44900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FCtwhK8XDkbcrWf28aw5M.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 44000.0
   },
   {
    "name": "Yara EDP (100ml) - Lattafa",
-   "buy": 54100.0,
+   "buy": 55200.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FSvZumtsgQ68g3KJKpU1z.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 54100.0
   },
   {
    "name": "Yara Elixir EDP (100ml) - Lattafa",
-   "buy": 54000.0,
+   "buy": 55100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F5Mwc8R3IFtt5qFWXMYAf.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 54000.0
   },
   {
    "name": "Yara Moi EDP (100ml) - Lattafa",
-   "buy": 42700.0,
+   "buy": 43500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FlRRAERxY4HiArnYJX7ng.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 44400.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42700.0
   },
   {
    "name": "Yara Tous EDP (100ml) - Lattafa",
-   "buy": 41600.0,
+   "buy": 42400.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FGNDMUI4Boc3GL4Hd33pC.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 41600.0
   },
   {
    "name": "Yeah Man! EDP (100ml) - Maison Alhambra",
-   "buy": 39800.0,
+   "buy": 40800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FxuR0Ztz4pJaxKU4abOPe.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 39800.0
   },
   {
    "name": "Yeah Man! Parfum (100ml) - Maison Alhambra",
-   "buy": 38000.0,
+   "buy": 39000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F4fSWPnNtAsfaMK4IQUHh.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 38000.0
   },
   {
    "name": "Your Touch Amber EDP (100ml) - Maison Alhambra",
-   "buy": 32000.0,
+   "buy": 33000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FwFrd9Ny8m1PdtKSs2v3v.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 36700.0,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 32000.0
   },
   {
    "name": "Your Touch EDP (100ml) - Maison Alhambra",
-   "buy": 45100.0,
+   "buy": 46100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F7X1VVqOjNKDBPHlGqfXC.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 45100.0
   },
   {
    "name": "Your Touch Extrait EDP (100ml) - Lattafa",
-   "buy": 36900.0,
+   "buy": 37900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWYkUBxkf7AZ6bNnkKpy0.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 36900.0
   },
   {
    "name": "Your Touch Intense EDP (100ml) - Maison Alhambra",
-   "buy": 45800.0,
+   "buy": 46800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F7Dgrdmo2aFNA9iECYUM3.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 45800.0
   },
   {
    "name": "Your Touch Leather EDP (100ml) - Maison Alhambra",
-   "buy": 42000.0,
+   "buy": 43000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FK7wMG8Y755m6updSqCsh.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 42000.0
   },
   {
    "name": "Yum Yum EDP (100ml) - Armaf",
-   "buy": 64100.0,
+   "buy": 65100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FnGKIAvDUs5VXGKAZQ2U4.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 64100.0
   }
  ],
- "removed": []
+ "removed": [
+  "Tubos Arabes 35ml"
+ ]
 }
