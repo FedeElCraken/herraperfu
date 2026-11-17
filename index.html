@@ -28,7 +28,7 @@ dialog label{display:block;margin:10px 0 4px;font-size:.9rem;color:var(--mut)}di
 #msg{padding:10px 16px;background:var(--amb);color:#231a2b;display:none}.empty{padding:40px 10px;text-align:center;color:var(--mut)}
 </style></head><body>
 <header><h1>Control de perfumes<small id="upd">Sin datos todavía</small></h1>
-<button class="main" id="go">Analizar ahora</button><button id="csv">Exportar Excel</button><button id="cfgb">Margen</button></header>
+<button class="main" id="go">Analizar ahora</button><button id="csv">Exportar Excel</button><button id="shopb">Tienda</button><button id="cfgb">Margen</button></header>
 <div id="msg" role="status"></div>
 <main>
 <div class="bar"><input id="q" type="search" placeholder="Buscar perfume" aria-label="Buscar perfume"><span id="chips" style="display:contents"></span></div>
@@ -48,15 +48,24 @@ dialog label{display:block;margin:10px 0 4px;font-size:.9rem;color:var(--mut)}di
 <dialog id="dlg2"><form method="dialog"><h2 style="margin-top:0;font-size:1.05rem" id="d2n"></h2><p class="lbl" id="d2h"></p>
 <label>Qué querés definir<select id="m2"><option value="fix">Ganancia en $</option><option value="pct">Ganancia en %</option><option value="price">Precio de venta final ($)</option></select></label>
 <label>Valor<input id="v2" type="number" min="0" step="any"></label>
+<label style="display:flex;gap:8px;align-items:center;margin-top:12px"><input type="checkbox" id="vis" style="width:auto"> Mostrar en la tienda pública</label>
 <p style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap"><button value="reset">Usar margen general</button><button value="cancel">Cancelar</button><button class="main" value="save">Guardar</button></p></form></dialog>
 
+<dialog id="dlg3"><form method="dialog"><h2 style="margin-top:0">Tienda pública</h2>
+<label>Nombre de la tienda<input id="sn" type="text" autocomplete="off"></label>
+<label>WhatsApp para recibir pedidos (con código de país, sin + ni espacios, ej. 5491122334455)<input id="sw" type="tel" autocomplete="off"></label>
+<label style="display:flex;gap:8px;align-items:center;margin-top:12px"><input type="checkbox" id="so1" style="width:auto"> Mostrar solo perfumes (oculta decants, kits, cremas, etc.)</label>
+<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" id="so2" style="width:auto"> Mostrar los agotados (como "Sin stock")</label>
+<p class="lbl">La tienda muestra solo nombre, foto, precio de venta y stock. Para ocultar un perfume puntual, usá "Editar precio" en su tarjeta. Hace falta el token de GitHub con permiso Contents (lectura y escritura).</p>
+<p style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap"><button value="cancel">Cerrar</button><button value="ok">Guardar</button><button type="button" class="main" id="pub">Publicar tienda</button></p></form></dialog>
 <script>
+const STORE_HTML="<!doctype html><html lang=\"es\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Perfumes<\/title>\n<style>\n:root{--bg:#f2eff5;--card:#fff;--ink:#231a2b;--mut:#76697f;--line:#ddd5e3;--head:#2b1b3a;--amb:#d9962b}\n@media(prefers-color-scheme:dark){:root{--bg:#171220;--card:#241c30;--ink:#f0eaf5;--mut:#a597b2;--line:#3a2f49;--head:#0f0a16}}\n*{box-sizing:border-box}body{margin:0;padding-bottom:84px;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,\"Segoe UI\",Roboto,sans-serif}\nheader{background:var(--head);color:#f5eefa;padding:14px 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:sticky;top:0;z-index:5}\nh1{font:700 1.2rem Georgia,serif;margin:0;flex:1 1 160px}\nbutton,input,select{font:inherit;border-radius:8px;border:1px solid var(--line);padding:8px 12px;background:var(--card);color:var(--ink)}\nbutton{cursor:pointer}.main{background:var(--amb);border-color:var(--amb);color:#231a2b;font-weight:700}\n:focus-visible{outline:3px solid var(--amb);outline-offset:1px}\nmain{max-width:1100px;margin:0 auto;padding:14px}.av{display:flex;gap:8px;align-items:center;margin-bottom:12px;color:var(--mut)}.av input{width:auto}\n.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}\n.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}\n.card img{width:100%;aspect-ratio:1;object-fit:cover;background:var(--line)}.card>div{padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}\n.nm{font-weight:600;font-size:.92rem;flex:1}.pr{font:700 1.25rem Georgia,serif}.st{display:flex;align-items:center;justify-content:space-between;gap:6px;color:var(--mut)}.st button{padding:6px 12px}\n.out{opacity:.55}#cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:6;padding:14px;font-weight:700;box-shadow:0 4px 18px #0006}\ndialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:480px;width:94%}\n.li{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}.li span{flex:1}\n.tot{font:700 1.2rem Georgia,serif;text-align:right;margin:12px 0}.empty{padding:40px 10px;text-align:center;color:var(--mut)}\n<\/style><\/head><body>\n<header><h1 id=\"t\">Perfumes<\/h1><input id=\"q\" type=\"search\" placeholder=\"Buscar perfume\" aria-label=\"Buscar perfume\">\n<select id=\"so\" aria-label=\"Ordenar\"><option value=\"n\">Nombre (A-Z)<\/option><option value=\"pa\">Precio: menor a mayor<\/option><option value=\"pd\">Precio: mayor a menor<\/option><\/select><\/header>\n<main><label class=\"av\"><input type=\"checkbox\" id=\"av\"> Solo disponibles<\/label><div class=\"grid\" id=\"g\"><\/div><\/main>\n<button class=\"main\" id=\"cb\" hidden><\/button>\n<dialog id=\"dl\"><h2 style=\"margin-top:0\">Tu pedido<\/h2><div id=\"ls\"><\/div><div class=\"tot\" id=\"tt\"><\/div>\n<p style=\"display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap\"><button id=\"vc\">Vaciar<\/button><button id=\"cl\">Seguir viendo<\/button><button class=\"main\" id=\"send\">Pedir por WhatsApp<\/button><\/p><\/dialog>\n<script>\nconst $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>\"]/g,c=>({\"&\":\"&amp;\",\"<\":\"&lt;\",\">\":\"&gt;\",'\"':\"&quot;\"}[c])),money=n=>\"$\"+Math.round(n).toLocaleString(\"es-AR\");\nlet C={store:{name:\"\",wa:\"\"},items:[]},cart={};\ntry{cart=JSON.parse(localStorage.getItem(\"cart\")||\"{}\")}catch(e){}\nconst saveCart=()=>{try{localStorage.setItem(\"cart\",JSON.stringify(cart))}catch(e){}},by=n=>C.items.find(x=>x.n===n);\nconst sorters={n:(a,b)=>a.n.localeCompare(b.n,\"es\"),pa:(a,b)=>a.p-b.p,pd:(a,b)=>b.p-a.p};\nfunction totals(){let c=0,t=0;for(const[n,q]of Object.entries(cart)){const it=by(n);if(it){c+=q;t+=q*it.p}}return{c,t}}\nfunction render(){\n  const q=$(\"#q\").value.toLowerCase(),av=$(\"#av\").checked,L=C.items.filter(x=>x.n.toLowerCase().includes(q)&&(!av||x.s)).sort(sorters[$(\"#so\").value]);\n  $(\"#g\").innerHTML=L.map(x=>{const k=cart[x.n]||0,n=esc(x.n);return`<article class=\"card ${x.s?\"\":\"out\"}\">${x.i?`<img src=\"${esc(x.i)}\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\">`:\"\"}<div><div class=\"nm\">${n}<\/div><div class=\"pr\">${money(x.p)}<\/div><div class=\"st\">${!x.s?\"Sin stock\":k?`<button data-a=\"-1\" data-n=\"${n}\" aria-label=\"Quitar uno\">\u2212<\/button><b>${k}<\/b><button data-a=\"1\" data-n=\"${n}\" aria-label=\"Agregar uno\">+<\/button>`:`<button class=\"main\" data-a=\"1\" data-n=\"${n}\" style=\"width:100%\">Agregar<\/button>`}<\/div><\/div><\/article>`}).join(\"\")||'<p class=\"empty\">No hay perfumes para mostrar.<\/p>';\n  const{c,t}=totals();$(\"#cb\").hidden=!c;$(\"#cb\").textContent=`Ver pedido (${c}) \u00b7 ${money(t)}`;\n  if($(\"#dl\").open)cartList();\n}\nfunction cartList(){\n  const rows=Object.entries(cart).filter(([n])=>by(n));if(!rows.length){$(\"#dl\").close();return}\n  $(\"#ls\").innerHTML=rows.map(([n,q])=>`<div class=\"li\"><span>${esc(n)}<br><small>${money(by(n).p)} c/u<\/small><\/span><button data-a=\"-1\" data-n=\"${esc(n)}\" aria-label=\"Quitar uno\">\u2212<\/button><b>${q}<\/b><button data-a=\"1\" data-n=\"${esc(n)}\" aria-label=\"Agregar uno\">+<\/button><\/div>`).join(\"\");\n  $(\"#tt\").textContent=\"Total: \"+money(totals().t);\n}\nfunction change(n,d){cart[n]=Math.max(0,(cart[n]||0)+d);if(!cart[n])delete cart[n];saveCart();render()}\ndocument.addEventListener(\"click\",e=>{const a=e.target.dataset;if(a.a)change(a.n,+a.a)});\n$(\"#cb\").onclick=()=>{cartList();$(\"#dl\").showModal()};$(\"#cl\").onclick=()=>$(\"#dl\").close();$(\"#vc\").onclick=()=>{cart={};saveCart();render();$(\"#dl\").close()};\n$(\"#send\").onclick=()=>{\n  if(!C.store.wa){alert(\"La tienda todav\u00eda no tiene n\u00famero de WhatsApp.\");return}\n  const lines=Object.entries(cart).filter(([n])=>by(n)).map(([n,q])=>`\u2022 ${q} x ${n} (${money(by(n).p)} c/u) = ${money(q*by(n).p)}`);\n  window.open(`https://wa.me/${C.store.wa}?text=${encodeURIComponent(`Hola! Quiero hacer este pedido:\\n${lines.join(\"\\n\")}\\n\\nTotal: ${money(totals().t)}`)}`,\"_blank\");\n};\n[\"q\",\"av\",\"so\"].forEach(i=>$(\"#\"+i).addEventListener(\"input\",render));\nfetch(\"catalog.json?\"+Date.now()).then(r=>r.json()).then(d=>{C=d;if(C.store.name){$(\"#t\").textContent=C.store.name;document.title=C.store.name}\n  for(const n of Object.keys(cart)){const it=by(n);if(!it||!it.s)delete cart[n]}saveCart();render()}).catch(()=>{$(\"#g\").innerHTML='<p class=\"empty\">El cat\u00e1logo no est\u00e1 disponible por ahora.<\/p>'});\n<\/script><\/body><\/html>\n";
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 // Lo que NO se considera perfume (se puede editar esta lista):
 const NO_PERFUME=/^(decant|kit\b|combo|mascar|perfumero|tubos|oleo\b|acondicionador|crema\b|pdrn)|victoria's secret|karseell|medicube/i;
 const ld=(k,d)=>{try{return{...d,...JSON.parse(localStorage.getItem(k)||"{}")}}catch(e){return d}};
 const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
-let cfg=ld("cfg2",{mode:"fix",value:20000,round:100,token:""}),ov=ld("ov",{}),ui=ld("ui",{perf:false,hideOut:false,sale:false,sort:"name"});
+let cfg=ld("cfg2",{mode:"fix",value:20000,round:100,token:""}),ov=ld("ov",{}),ui=ld("ui",{perf:false,hideOut:false,sale:false,sort:"name"}),shop=ld("shop",{name:"",wa:"",onlyPerf:true,showOut:true}),hid=ld("hid",{});
 let data={products:[],removed:[]},flt="all",cur=null;
 const money=n=>"$"+Math.round(n).toLocaleString("es-AR");
 const sellOf=p=>{const o=ov[p.name];if(o&&o.mode==="price")return o.value;
@@ -78,7 +87,7 @@ function render(){
   if(flt==="gone"){const q=$("#q").value.toLowerCase();html=(data.removed||[]).filter(n=>n.toLowerCase().includes(q)).map(n=>`<div class="card"><div class="nm">${esc(n)}</div></div>`).join("")}
   else html=visible().map(p=>{const s=sellOf(p),i=data.products.indexOf(p),o=ov[p.name];return`
    <article class="card ${p.stock?"":"out"}">${p.img?`<img src="${esc(p.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:""}<div>
-   <div class="nm" style="padding:0">${esc(p.name)}${p.status==="new"?'<span class="tag new">Nuevo</span>':""}${p.old_buy?'<span class="tag sale">Oferta</span>':""}${p.stock?"":'<span class="tag off">Sin stock</span>'}</div>
+   <div class="nm" style="padding:0">${esc(p.name)}${p.status==="new"?'<span class="tag new">Nuevo</span>':""}${p.old_buy?'<span class="tag sale">Oferta</span>':""}${p.stock?"":'<span class="tag off">Sin stock</span>'}${hid[p.name]?'<span class="tag off">Oculto en tienda</span>':""}</div>
    <div class="row"><span>Compra</span><span>${p.old_buy?`<s>${money(p.old_buy)}</s> `:""}${money(p.buy)}${p.prev_buy?` <span class="tag ${p.status}">${p.status==="up"?"▲":"▼"} antes ${money(p.prev_buy)}</span>`:""}</span></div>
    <div class="row"><span>Venta${o?' <span class="tag cus">Personalizado</span>':""}</span><span class="sell">${money(s)}</span></div>
    <div class="row"><span>Ganancia</span><span>${money(s-p.buy)}</span></div>
@@ -89,14 +98,15 @@ $("#chips").onclick=e=>{const k=e.target.dataset.k;if(k){flt=k;render()}};
 $("#tgs").onclick=e=>{const k=e.target.dataset.t;if(k){ui[k]=!ui[k];sv("ui",ui);render()}};
 $("#sort").onchange=e=>{ui.sort=e.target.value;sv("ui",ui);render()};$("#q").oninput=render;
 $("#grid").onclick=e=>{const i=e.target.dataset.i;if(i==null)return;cur=data.products[i];const o=ov[cur.name]||{mode:cfg.mode,value:cfg.value};
-  $("#d2n").textContent=cur.name;$("#d2h").textContent="Compra "+money(cur.buy)+" · Venta actual "+money(sellOf(cur));$("#m2").value=o.mode;$("#v2").value=o.value;
+  $("#d2n").textContent=cur.name;$("#d2h").textContent="Compra "+money(cur.buy)+" · Venta actual "+money(sellOf(cur));$("#m2").value=o.mode;$("#v2").value=o.value;$("#vis").checked=!hid[cur.name];
   $("#dlg2").returnValue="";$("#dlg2").showModal()};
 $("#dlg2").onclose=()=>{const r=$("#dlg2").returnValue;if(!cur)return;
-  if(r==="save"){ov[cur.name]={mode:$("#m2").value,value:+$("#v2").value||0};sv("ov",ov)}else if(r==="reset"){delete ov[cur.name];sv("ov",ov)}render()};
+  if(r==="save"||r==="reset"){if(r==="save")ov[cur.name]={mode:$("#m2").value,value:+$("#v2").value||0};else delete ov[cur.name];
+    if($("#vis").checked)delete hid[cur.name];else hid[cur.name]=true;sv("ov",ov);sv("hid",hid)}render()};
 $("#cfgb").onclick=()=>{$("#mode").value=cfg.mode;$("#val").value=cfg.value;$("#rnd").value=cfg.round;$("#tok").value=cfg.token;$("#dlg").returnValue="";$("#dlg").showModal()};
 $("#dlg").onclose=()=>{if($("#dlg").returnValue!=="ok")return;cfg={mode:$("#mode").value,value:+$("#val").value||0,round:$("#rnd").value,token:$("#tok").value.trim()};sv("cfg2",cfg);render()};
-$("#bk").onclick=async()=>{try{await navigator.clipboard.writeText(JSON.stringify({cfg:{...cfg,token:""},ov}));msg("Respaldo copiado. Pegalo en otro dispositivo con Restaurar respaldo.")}catch(e){msg("No se pudo copiar el respaldo.")}};
-$("#rs").onclick=()=>{const t=prompt("Pegá el respaldo");if(!t)return;try{const b=JSON.parse(t);cfg={...cfg,...b.cfg,token:cfg.token};ov=b.ov||{};sv("cfg2",cfg);sv("ov",ov);$("#dlg").close();render();msg("Respaldo restaurado.")}catch(e){msg("El respaldo no es válido.")}};
+$("#bk").onclick=async()=>{try{await navigator.clipboard.writeText(JSON.stringify({cfg:{...cfg,token:""},ov,shop,hid}));msg("Respaldo copiado. Pegalo en otro dispositivo con Restaurar respaldo.")}catch(e){msg("No se pudo copiar el respaldo.")}};
+$("#rs").onclick=()=>{const t=prompt("Pegá el respaldo");if(!t)return;try{const b=JSON.parse(t);cfg={...cfg,...b.cfg,token:cfg.token};ov=b.ov||{};shop={...shop,...(b.shop||{})};hid=b.hid||{};sv("cfg2",cfg);sv("ov",ov);sv("shop",shop);sv("hid",hid);$("#dlg").close();render();msg("Respaldo restaurado.")}catch(e){msg("El respaldo no es válido.")}};
 $("#csv").onclick=()=>{const rows=[["Nombre","Compra","Venta","Ganancia","Stock","Oferta"],...visible().map(p=>[p.name,p.buy,sellOf(p),sellOf(p)-p.buy,p.stock?"Si":"No",p.old_buy?"Si":"No"])];
   const b=new Blob(["\ufeff"+rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(";")).join("\n")],{type:"text/csv"});
   const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="perfumes.csv";a.click()};
@@ -109,6 +119,28 @@ $("#go").onclick=async()=>{
   if(!r.ok){msg("GitHub rechazó el pedido ("+r.status+"). Revisá el token.");return}
   for(let i=0;i<24;i++){msg("Analizando la tienda… puede tardar unos minutos");await new Promise(f=>setTimeout(f,15000));await load();if(data.updated!==old){msg("Listo: datos actualizados.");return}}
   msg("Todavía no hay datos nuevos. Probá recargar en un rato.");
+};
+const utf=s=>unescape(encodeURIComponent(s));
+async function put(path,text,o){
+  const url=`https://api.github.com/repos/${o.owner}/${o.repo}/contents/${path}`,H={Authorization:"Bearer "+cfg.token,Accept:"application/vnd.github+json"};
+  let sha;const g=await fetch(url,{headers:H,cache:"no-store"});
+  if(g.ok){const j=await g.json();sha=j.sha;if(atob((j.content||"").replace(/\n/g,""))===utf(text))return}
+  const r=await fetch(url,{method:"PUT",headers:H,body:JSON.stringify({message:"Publicar tienda",content:btoa(utf(text)),sha})});
+  if(!r.ok)throw new Error(r.status)}
+$("#shopb").onclick=()=>{$("#sn").value=shop.name;$("#sw").value=shop.wa;$("#so1").checked=!!shop.onlyPerf;$("#so2").checked=!!shop.showOut;$("#dlg3").returnValue="";$("#dlg3").showModal()};
+const readShop=()=>{shop={name:$("#sn").value.trim(),wa:$("#sw").value.replace(/\D/g,""),onlyPerf:$("#so1").checked,showOut:$("#so2").checked};sv("shop",shop)};
+$("#dlg3").onclose=()=>{if($("#dlg3").returnValue==="ok"){readShop();render()}};
+$("#pub").onclick=async()=>{
+  readShop();$("#dlg3").close();
+  const m=location.hostname.match(/^(.+)\.github\.io$/),repo=location.pathname.split("/")[1];
+  if(!cfg.token||!m||!repo){msg("Falta el token de GitHub (botón Margen) o abrir la app desde la dirección de GitHub Pages.");return}
+  if(!shop.wa){msg("Cargá el número de WhatsApp en Tienda antes de publicar.");return}
+  const items=data.products.filter(p=>!hid[p.name]&&(!shop.onlyPerf||!NO_PERFUME.test(p.name))&&(shop.showOut||p.stock)).map(p=>({n:p.name,i:p.img,p:sellOf(p),s:p.stock}));
+  const cat={store:{name:shop.name,wa:shop.wa},updated:new Date().toISOString(),items};
+  msg("Publicando la tienda…");
+  try{const o={owner:m[1],repo};await put("public/index.html",STORE_HTML,o);await put("public/catalog.json",JSON.stringify(cat),o);
+    msg("Tienda publicada con "+items.length+" productos. En uno o dos minutos se actualiza la página.")}
+  catch(e){msg("No se pudo publicar ("+e.message+"). Revisá que el token tenga permiso Contents: lectura y escritura.")}
 };
 if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
 load();
