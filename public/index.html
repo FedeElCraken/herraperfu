@@ -1,0 +1,56 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Perfumes</title>
+<style>
+:root{--bg:#f2eff5;--card:#fff;--ink:#231a2b;--mut:#76697f;--line:#ddd5e3;--head:#2b1b3a;--amb:#d9962b}
+@media(prefers-color-scheme:dark){:root{--bg:#171220;--card:#241c30;--ink:#f0eaf5;--mut:#a597b2;--line:#3a2f49;--head:#0f0a16}}
+*{box-sizing:border-box}body{margin:0;padding-bottom:84px;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--head);color:#f5eefa;padding:14px 16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:sticky;top:0;z-index:5}
+h1{font:700 1.2rem Georgia,serif;margin:0;flex:1 1 160px}
+button,input,select{font:inherit;border-radius:8px;border:1px solid var(--line);padding:8px 12px;background:var(--card);color:var(--ink)}
+button{cursor:pointer}.main{background:var(--amb);border-color:var(--amb);color:#231a2b;font-weight:700}
+:focus-visible{outline:3px solid var(--amb);outline-offset:1px}
+main{max-width:1100px;margin:0 auto;padding:14px}.av{display:flex;gap:8px;align-items:center;margin-bottom:12px;color:var(--mut)}.av input{width:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:var(--line)}.card>div{padding:10px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.nm{font-weight:600;font-size:.92rem;flex:1}.pr{font:700 1.25rem Georgia,serif}.st{display:flex;align-items:center;justify-content:space-between;gap:6px;color:var(--mut)}.st button{padding:6px 12px}
+.out{opacity:.55}#cb{position:fixed;left:12px;right:12px;bottom:12px;z-index:6;padding:14px;font-weight:700;box-shadow:0 4px 18px #0006}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:480px;width:94%}
+.li{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}.li span{flex:1}
+.tot{font:700 1.2rem Georgia,serif;text-align:right;margin:12px 0}.empty{padding:40px 10px;text-align:center;color:var(--mut)}
+</style></head><body>
+<header><h1 id="t">Perfumes</h1><input id="q" type="search" placeholder="Buscar perfume" aria-label="Buscar perfume">
+<select id="so" aria-label="Ordenar"><option value="n">Nombre (A-Z)</option><option value="pa">Precio: menor a mayor</option><option value="pd">Precio: mayor a menor</option></select></header>
+<main><label class="av"><input type="checkbox" id="av"> Solo disponibles</label><div class="grid" id="g"></div></main>
+<button class="main" id="cb" hidden></button>
+<dialog id="dl"><h2 style="margin-top:0">Tu pedido</h2><div id="ls"></div><div class="tot" id="tt"></div>
+<p style="display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap"><button id="vc">Vaciar</button><button id="cl">Seguir viendo</button><button class="main" id="send">Pedir por WhatsApp</button></p></dialog>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])),money=n=>"$"+Math.round(n).toLocaleString("es-AR");
+let C={store:{name:"",wa:""},items:[]},cart={};
+try{cart=JSON.parse(localStorage.getItem("cart")||"{}")}catch(e){}
+const saveCart=()=>{try{localStorage.setItem("cart",JSON.stringify(cart))}catch(e){}},by=n=>C.items.find(x=>x.n===n);
+const sorters={n:(a,b)=>a.n.localeCompare(b.n,"es"),pa:(a,b)=>a.p-b.p,pd:(a,b)=>b.p-a.p};
+function totals(){let c=0,t=0;for(const[n,q]of Object.entries(cart)){const it=by(n);if(it){c+=q;t+=q*it.p}}return{c,t}}
+function render(){
+  const q=$("#q").value.toLowerCase(),av=$("#av").checked,L=C.items.filter(x=>x.n.toLowerCase().includes(q)&&(!av||x.s)).sort(sorters[$("#so").value]);
+  $("#g").innerHTML=L.map(x=>{const k=cart[x.n]||0,n=esc(x.n);return`<article class="card ${x.s?"":"out"}">${x.i?`<img src="${esc(x.i)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:""}<div><div class="nm">${n}</div><div class="pr">${money(x.p)}</div><div class="st">${!x.s?"Sin stock":k?`<button data-a="-1" data-n="${n}" aria-label="Quitar uno">−</button><b>${k}</b><button data-a="1" data-n="${n}" aria-label="Agregar uno">+</button>`:`<button class="main" data-a="1" data-n="${n}" style="width:100%">Agregar</button>`}</div></div></article>`}).join("")||'<p class="empty">No hay perfumes para mostrar.</p>';
+  const{c,t}=totals();$("#cb").hidden=!c;$("#cb").textContent=`Ver pedido (${c}) · ${money(t)}`;
+  if($("#dl").open)cartList();
+}
+function cartList(){
+  const rows=Object.entries(cart).filter(([n])=>by(n));if(!rows.length){$("#dl").close();return}
+  $("#ls").innerHTML=rows.map(([n,q])=>`<div class="li"><span>${esc(n)}<br><small>${money(by(n).p)} c/u</small></span><button data-a="-1" data-n="${esc(n)}" aria-label="Quitar uno">−</button><b>${q}</b><button data-a="1" data-n="${esc(n)}" aria-label="Agregar uno">+</button></div>`).join("");
+  $("#tt").textContent="Total: "+money(totals().t);
+}
+function change(n,d){cart[n]=Math.max(0,(cart[n]||0)+d);if(!cart[n])delete cart[n];saveCart();render()}
+document.addEventListener("click",e=>{const a=e.target.dataset;if(a.a)change(a.n,+a.a)});
+$("#cb").onclick=()=>{cartList();$("#dl").showModal()};$("#cl").onclick=()=>$("#dl").close();$("#vc").onclick=()=>{cart={};saveCart();render();$("#dl").close()};
+$("#send").onclick=()=>{
+  if(!C.store.wa){alert("La tienda todavía no tiene número de WhatsApp.");return}
+  const lines=Object.entries(cart).filter(([n])=>by(n)).map(([n,q])=>`• ${q} x ${n} (${money(by(n).p)} c/u) = ${money(q*by(n).p)}`);
+  window.open(`https://wa.me/${C.store.wa}?text=${encodeURIComponent(`Hola! Quiero hacer este pedido:\n${lines.join("\n")}\n\nTotal: ${money(totals().t)}`)}`,"_blank");
+};
+["q","av","so"].forEach(i=>$("#"+i).addEventListener("input",render));
+fetch("catalog.json?"+Date.now()).then(r=>r.json()).then(d=>{C=d;if(C.store.name){$("#t").textContent=C.store.name;document.title=C.store.name}
+  for(const n of Object.keys(cart)){const it=by(n);if(!it||!it.s)delete cart[n]}saveCart();render()}).catch(()=>{$("#g").innerHTML='<p class="empty">El catálogo no está disponible por ahora.</p>'});
+</script></body></html>
