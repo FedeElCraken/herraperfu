@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:44:00+00:00",
+ "updated": "2026-11-23T23:25:22+00:00",
  "first_run": false,
  "products": [
   {
@@ -129,7 +129,7 @@
    "name": "Ajwad EDP (60ml) - Lattafa",
    "buy": 34500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FWgoRy7U1FhYP2x1reV9W.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -289,10 +289,12 @@
   },
   {
    "name": "Angham EDP (100ml) - Lattafa",
-   "buy": 47900.0,
+   "buy": 43900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FCKEiPA4AbL7myZA4rAj4.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "old_buy": 47900.0,
+   "status": "down",
+   "prev_buy": 47900.0
   },
   {
    "name": "Angham Second Song EDP (100ml) - Lattafa",
@@ -382,7 +384,7 @@
    "name": "Atlas EDP (55ml) - Lattafa",
    "buy": 53100.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FS9EP6w2kTa1Hsk29NApv.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -643,7 +645,7 @@
    "name": "Club De Nuit Urban Man Elixir EDP (105ml) - Armaf",
    "buy": 62000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FgVssE8qCduseqikTb2Nz.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "status": "same"
   },
   {
@@ -1011,7 +1013,7 @@
    "name": "Give Me Gourmand Whipped Pleasure EDP (100ml) - Lattafa",
    "buy": 57000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fgallery%252FXTgCU0llufByfPXPv7c5.jpg%3Falt%3Dmedia",
-   "stock": false,
+   "stock": true,
    "old_buy": 59800.0,
    "status": "same"
   },
@@ -1134,7 +1136,7 @@
    "name": "Hawas Kobra EDP (100ml) - Rasasi",
    "buy": 59900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FMLw7fBpzOU0T7M730itV.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 74700.0,
    "status": "same"
   },
@@ -1434,10 +1436,11 @@
   },
   {
    "name": "Kit Haya Rose 3 Piezas",
-   "buy": 80000.0,
+   "buy": 79900.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FmXZZ12ReilRxzZrRLBfR.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "down",
+   "prev_buy": 80000.0
   },
   {
    "name": "KIT King Of Arabia 4 Piezas",
@@ -1813,7 +1816,7 @@
    "name": "Odyssey Mandarin Sky Elixir EDP (100ml) - Armaf",
    "buy": 65000.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FUXJ5T4wwww8bP52IcaJi.jpg%3Falt%3Dmedia",
-   "stock": true,
+   "stock": false,
    "old_buy": 66100.0,
    "status": "same"
   },
@@ -2026,11 +2029,12 @@
   },
   {
    "name": "Ramz Gold EDP (100ml) - Lattafa",
-   "buy": 35400.0,
+   "buy": 29800.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252F6rd0P57Vrm33GZ3ymwGb.jpg%3Falt%3Dmedia",
    "stock": true,
    "old_buy": 38500.0,
-   "status": "same"
+   "status": "down",
+   "prev_buy": 35400.0
   },
   {
    "name": "Ramz Silver EDP (100ml) - Lattafa",
@@ -2248,10 +2252,11 @@
   },
   {
    "name": "Salvo Elixir EDP (100ml) - Maison Alhambra",
-   "buy": 40000.0,
+   "buy": 44500.0,
    "img": "https://imgproxy.callbell.eu/insecure/rs:fill:640:640/plain/https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fstores-44690.appspot.com%2Fo%2Fproducts%252FcgG9f73tWMudVmvVtUPr.jpg%3Falt%3Dmedia",
    "stock": true,
-   "status": "same"
+   "status": "up",
+   "prev_buy": 40000.0
   },
   {
    "name": "Salvo Intense EDP (100ml) - Maison Alhambra",
